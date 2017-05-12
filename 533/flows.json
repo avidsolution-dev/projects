@@ -155,7 +155,7 @@
     "format": "{{msg.payload}}",
     "layout": "row-spread",
     "x": 738,
-    "y": 354,
+    "y": 384,
     "wires": []
   },
   {
@@ -170,8 +170,8 @@
     "format": "<div layout=\"row\" layout-align=\"space-between\">\n    <p>The number is</p>\n    <p ng-style=\"{color: (msg.payload || 0) ? 'green' : 'red'}\">\n        {{(msg.payload || 0) ? 'true' : 'false'}}\n    </p>\n</div>",
     "storeOutMessages": true,
     "fwdInMessages": true,
-    "x": 751,
-    "y": 413,
+    "x": 749,
+    "y": 455,
     "wires": [
       []
     ]
@@ -261,11 +261,11 @@
     "id": "b83831ad.608db",
     "type": "upload_file",
     "z": "966e4bfe.ef2488",
-    "filename": "test16.txt",
+    "filename": "test15.txt",
     "name": "",
     "overwriteFile": "true",
-    "x": 871,
-    "y": 79,
+    "x": 1020,
+    "y": 34,
     "wires": [
       []
     ]
