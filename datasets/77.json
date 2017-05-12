@@ -1,1 +1,11 @@
-{"activeSheet":"Sheet1","sheets":[{"name":"Sheet1","rows":[{"index":0,"height":21,"cells":[{"value":"qqq","index":0},{"value":"www","index":1},{"value":"eee","index":2}]},{"index":1,"height":21,"cells":[{"value":55,"format":"#","index":0},{"value":66,"format":"#","index":1},{"value":77,"format":"#","index":2},{"value":8,"format":"#","index":3},{"value":9,"format":"#","index":4}]}],"columns":[],"selection":"E2:E2","activeCell":"E2:E2","frozenRows":0,"frozenColumns":0,"showGridLines":true,"gridLinesColor":null,"mergedCells":[],"hyperlinks":[],"defaultCellStyle":{"fontFamily":"Arial","fontSize":"12"}}],"names":[],"columnWidth":64,"rowHeight":20}
+@using System.Data;
+
+@foreach(var row in Model["sheet1_12"].AsEnumerable()){
+<text>The name1 of the item is @row["name1"]
+The name2 of the item is @row["name2"]</text>
+}
+
+@{
+var sheet1 = Model["sheet1_12"].AsEnumerable().ToList();
+@:@sheet1[10]["name1"]
+}
