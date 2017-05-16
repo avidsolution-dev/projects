@@ -490,6 +490,25 @@
           ]
         },
         {
+          "index": 5,
+          "height": 21,
+          "cells": [
+            {
+              "format": "#",
+              "index": 0
+            },
+            {
+              "format": "#",
+              "index": 1
+            },
+            {
+              "value": 111,
+              "format": "#",
+              "index": 2
+            }
+          ]
+        },
+        {
           "index": 0,
           "cells": [
             {
@@ -511,19 +530,6 @@
         },
         {
           "index": 3,
-          "cells": [
-            {
-              "format": "#",
-              "index": 0
-            },
-            {
-              "format": "#",
-              "index": 1
-            }
-          ]
-        },
-        {
-          "index": 5,
           "cells": [
             {
               "format": "#",
@@ -628,8 +634,8 @@
         }
       ],
       "columns": [],
-      "selection": "C6:C6",
-      "activeCell": "C6:C6",
+      "selection": "R1:R1",
+      "activeCell": "R1:R1",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
