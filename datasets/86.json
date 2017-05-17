@@ -3,10 +3,21 @@
   "sheets": [
     {
       "name": "Sheet1",
-      "rows": [],
+      "rows": [
+        {
+          "index": 1,
+          "height": 21,
+          "cells": [
+            {
+              "value": "uuuu",
+              "index": 1
+            }
+          ]
+        }
+      ],
       "columns": [],
-      "selection": "A1:A1",
-      "activeCell": "A1:A1",
+      "selection": "B2:B2",
+      "activeCell": "B2:B2",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
