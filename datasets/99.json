@@ -12,6 +12,11 @@
               "value": 55555555,
               "format": "#",
               "index": 0
+            },
+            {
+              "value": 77777,
+              "format": "#",
+              "index": 1
             }
           ]
         },
@@ -28,8 +33,8 @@
         }
       ],
       "columns": [],
-      "selection": "A2:A2",
-      "activeCell": "A2:A2",
+      "selection": "B1:B1",
+      "activeCell": "B1:B1",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
