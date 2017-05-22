@@ -1,0 +1,156 @@
+[
+  {
+    "id": "f8d89ec0.80f68",
+    "type": "tab",
+    "label": "Flow 1"
+  },
+  {
+    "id": "5a4fbf09.e0cb2",
+    "type": "combine_dataset",
+    "z": "f8d89ec0.80f68",
+    "count": 0,
+    "sheets": [],
+    "x": 325,
+    "y": 165,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c8bdf3c4.e3b5e",
+    "type": "upload_file",
+    "z": "f8d89ec0.80f68",
+    "filename": "",
+    "name": "",
+    "x": 862,
+    "y": 378,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "f27168d2.caa718",
+    "type": "combine_dataset",
+    "z": "f8d89ec0.80f68",
+    "count": 0,
+    "sheets": [],
+    "x": 328,
+    "y": 84,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "f3106140.3ab4b",
+    "type": "function",
+    "z": "f8d89ec0.80f68",
+    "name": "Get Main Code Snippets & Comments",
+    "func": "// Debug Messages\nmsg.log = \"Starting Get Main Code Snippets & Comments...\";\n\n// Default the validation errors message if it doesn't have anything being passed in\nif ((msg.validationErrors === null) || (msg.validationErrors === undefined)) {\n    msg.validationErrors = \"\";\n}\n\n// Cache a reference to the relevant data sets that need to be used\nvar cDef_CodeSnippets = msg.payload[\"CDef_CodeSnippets_Pivoted\"];\nvar modulesList = msg.payload[\"Modules\"];\n\n// Iterate the tags in the Modules list dataset\nfor (i = 0; i < modulesList.length; i++){\n    // Cache a reference to the current module's list data\n    var module_i = modulesList[i];\n    \n    // Cache off the common paramaters from the current module\n    var controller_i = module_i.Controller;\n    var moduleTagName_i = module_i.ModuleTagName;\n    var moduleClassName_i = module_i.ClassName;\n    var usageScenario_i = module_i.UsageScenario;\n    \n    // Debug Messages\n    msg.log = msg.log + \"\\n\" + \"Controller = \" + controller_i + \".\";\n    msg.log = msg.log + \"\\n\" + \"Module Tag Name = \" + moduleTagName_i + \".\";\n    msg.log = msg.log + \"\\n\" + \"Class Name = \" + moduleClassName_i + \".\";\n    \n    // Attempt to pull the data table for the class\n    var moduleDataTable = msg.payload[moduleClassName_i];\n    var moduleCodeCommentPair_i = {\"Code\":null, \"Comment\":null};\n    \n    // Test if the module's data table exists\n    // If it does, filter it for the current module tag name & attempt to extract the code & comment override fields.\n    if ((moduleDataTable !== null) && (moduleDataTable !== undefined)){\n        // Data table exists.  Attempt to filter it down to just the current tag.\n        var tempModuleDataArray = moduleDataTable.filter((element)=>{\n                if ((element !== null) && (element !== undefined)){\n                    return ((element.Controller === controller_i) &&\n                        (element.ModuleTagName === moduleTagName_i));\n                }\n            });\n        \n        // Check how many times the tag shows up in the data table\n        if (tempModuleDataArray.length == 1){\n            // Tag exists once and only once in the data table.\n            //  Cache a reference to the current module's data table row\n            var moduleData_i = tempModuleDataArray[0];\n            \n            // Test if the code override is specified\n            if ((moduleData_i.CodeOverride !== null) && (moduleData_i.CodeOverride !== undefined)) {\n                // Code override exists\n                if (moduleData_i.CodeOverride.trim().length > 0) {\n                    // Code override exists and is non-whitespace\n                    moduleCodeCommentPair_i.Code = moduleData_i.CodeOverride;\n                    \n                    // Test if the comment override is specified\n                    if ((moduleData_i.CommentOverride !== null) && (moduleData_i.CommentOverride !== undefined)) {\n                        if (moduleData_i.CommentOverride.trim().length > 0) {\n                            // Comment override exists and is non-whitespace\n                            moduleCodeCommentPair_i.Comment = moduleData_i.CommentOverride;\n                        }\n                    }\n                }\n            }\n        }\n    }\n    \n    // Test if an instance override was found or not\n    // If no instance override was found, pull the main snippet for the \n    //  current class & usage scenario.\n    if (moduleCodeCommentPair_i.Code === null){\n        // Attempt to get the first class in the snippets dataset that matches \n        //  the current tag's class & usage scenario.\n        var cDef_CodeSnippets_i = cDef_CodeSnippets.find((element)=>{\n            if ((element !== null) && (element !== undefined)){\n                return (element.ClassName === moduleClassName_i);\n            }\n        });\n        \n        // Test if a class definition was found\n        // If so, attempt to pull the matching usage scenario, but only if is non-null\n        var cDef_CodeSnippets_UsageScenario_i = null;\n        if ((cDef_CodeSnippets_i !== null) && (cDef_CodeSnippets_i !== undefined)){\n            cDef_CodeSnippets_UsageScenario_i = cDef_CodeSnippets_i.UsageScenarios.find((element)=>{\n                if ((element !== null) && (element !== undefined)){\n                    return ((element.UsageScenarioName === usageScenario_i) &&\n                        (element.UsageScenarioName !== null));\n                }\n            });\n        }\n        \n        // Test if a matching usage scenario was found\n        if ((cDef_CodeSnippets_UsageScenario_i !== null) && (cDef_CodeSnippets_UsageScenario_i !== undefined)){\n            // Attempt to pull the Main code snippet for it\n            var mainCodeSnippet = cDef_CodeSnippets_UsageScenario_i.Snippets.find((element)=>{\n                if ((element !== null) && (element !== undefined)){\n                    return (element.SnippetName === \"Main\");\n                }\n            });\n            \n        \n            // Test if the the Main snippet was found or not\n            // If found, return it with the comment\n            // If not found, log a validation error\n            if ((mainCodeSnippet === null) || (mainCodeSnippet === undefined)) {\n                msg.validationErrors = msg.validationErrors + \"\\n\" + controller_i + \"'s \" + \n                    moduleTagName_i + \" does not have a Main snippet for Class \" + moduleClassName_i + \".\";\n            }\n            else {\n                // Main code exists and is non-whitespace\n                moduleCodeCommentPair_i.Code = mainCodeSnippet.Code;\n                moduleCodeCommentPair_i.Comment = mainCodeSnippet.Comment;\n            }\n        }\n    }\n    \n    // Attach the entry point code-comment pair to the module's list data\n    module_i.CodeCommentPair = moduleCodeCommentPair_i;\n}\n\n// Return the result\nmsg.log = msg.log + \"\\n\" + \"Returning result.\";\nmsg.payload = {\"Modules\": modulesList};\n//msg.payload[\"Modules\"] = modulesList;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 604,
+    "y": 220,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c3cd0b7.0d21ef8",
+    "type": "function",
+    "z": "f8d89ec0.80f68",
+    "name": "Get Usage Scenarios",
+    "func": "// Debug Messages\nmsg.log = \"Starting Get Usage Scenarios...\";\n\n// Default the validation errors message if it doesn't have anything being passed in\nif ((msg.validationErrors === null) || (msg.validationErrors === undefined)) {\n    msg.validationErrors = \"\";\n}\n\n// This function's purpose is to iterate the module tag names in the modules list\n// For each tag:\n//  1) Cache data needed for later\n//      a) Module tag name\n//      b) Module's class name\n//  2) Pull the tag's module data table row\n//      a) Log a validation error if the table doesn't exist\n//      b) Log a validation error if the tag doesn't exist in the table or exists too many times\n//      c) Cache a reference to the tag's module data row.\n//  3) Pull the class definition from CDef_UsageScenarios_Pivoted\n//      a) Log a validation error class def doesn't exist\n//  4) Iterate the usage scenarios in the class definition.   Note: set UsageScenarioFound = false.\n//  5) For each usage scenario, iterate the parameter names.  Note: set AllParametersMatch = true\n//  6) For each parameter in the usage scenario,\n//      a) Cache off if the parameter was supposed to be configured or not (ParameterMappingExists).\n//      b) Pull the data from tag's module data row for column matching the parameter name.  Note: trim whitespace during the pull.\n//      c) ParameterMatches = ((TagParamConfig.length > 0) == ParameterMappingExists)\n//      d) AllParametersMatch = AllParametersMatch && ParameterMatches\n//  7) If AllParametersMatch = true, set UsageScenarioFound = true & quit iterating the usage scenarios.\n//  8) Check if a usage scenario was found or not\n//      a) If UsageScenarioFound = true, append the usage scenario to the modules list data.\n//      b)If UsageScenarioFound = false, log a validation error.\n\n/*{\n    \"ClassName\":className_i,\n    \"UsageScenarios\":[{\n        \"UsageScenarioName\":usageScenario_i,\n        \"Parameters\":[{\n            \"ParameterName\":parameterName_i,\n            \"DataType\":dataType_i,\n            \"ParameterMappingExists\":parameterMappingExists_i,\n            \"ValidateAgainstIOList\":validateAgainstIOList_i\n        }]\n    }]\n}*/\n\n// Cache a reference to the relevant data sets that need to be used\nvar cDef_UsageScenarios = msg.payload[\"CDef_UsageScenarios_Pivoted\"];\nvar modulesList = msg.payload[\"Modules\"];\n\n// Iterate the tags in the Modules list dataset\nfor (i = 0; i < modulesList.length; i++){\n    // Cache a reference to the current module's list data\n    var module_i = modulesList[i];\n    \n    // Cache off the common paramaters from the current module\n    var controller_i = module_i.Controller;\n    var moduleTagName_i = module_i.ModuleTagName;\n    var moduleClassName_i = module_i.ClassName;\n    \n    // Debug Messages\n    msg.log = msg.log + \"\\n\" + \"Controller = \" + controller_i + \".\";\n    msg.log = msg.log + \"\\n\" + \"Module Tag Name = \" + moduleTagName_i + \".\";\n    msg.log = msg.log + \"\\n\" + \"Class Name = \" + moduleClassName_i + \".\";\n    \n    // Attempt to pull the data table for the class\n    var moduleDataTable = msg.payload[moduleClassName_i];\n    \n    // Test if the module's data table exists\n    // If it does, filter it for the current module tag name\n    // If it doesn't, log a validation error\n    if ((moduleDataTable === null) || (moduleDataTable === undefined)){\n        // Log a validation error\n        msg.validationErrors = msg.validationErrors + \"\\n\" + moduleTagName_i + \"'s class (\" + \n            moduleClassName_i + \") doesn't have a corresponding data table.\";\n    }\n    else {\n        // Data table exists.  Attempt to filter it down to just the current tag.\n        var tempModuleDataArray = moduleDataTable.filter((element)=>{\n                if ((element !== null) && (element !== undefined)){\n                    return ((element.Controller === controller_i) &&\n                        (element.ModuleTagName === moduleTagName_i));\n                }\n            });\n        \n        // Check how many times the tag shows up in the data table\n        if (tempModuleDataArray.length == 0){\n            // Tag doesn't exist.  Log a validation error\n            msg.validationErrors = msg.validationErrors + \"\\n\" + controller_i + \"'s \" + moduleTagName_i + \n                \" doesn't have a row in its class's data table.\";\n        }\n        else if(tempModuleDataArray.length > 1) {\n            // Tag exists more than once.  Log a validation error\n            msg.validationErrors = msg.validationErrors + \"\\n\" + controller_i + \"'s \" + moduleTagName_i + \n                \" has more than one row in its class's data table (row count = \" + tempModuleDataArray.length + \").\";\n        }\n        else {\n            // Tag exists once and only once in the data table.\n            //  Cache a reference to the current module's data table row\n            var moduleData_i = tempModuleDataArray[0];\n            \n            // Pull the first match for this module's class from CDef_UsageScenarios_Pivoted\n            var cDef_UsageScenarios_i = cDef_UsageScenarios.find((element)=>{\n                    if ((element !== null) && (element !== undefined)){\n                        return (element.ClassName === moduleClassName_i);\n                    }\n                });\n            \n            // Check if a usage scenario exists for the current class name\n            if ((cDef_UsageScenarios_i === null) || (cDef_UsageScenarios_i === undefined)){\n                // Log a validation error\n                msg.validationErrors = msg.validationErrors + \"\\n\" + controller_i + \"'s \" + moduleTagName_i + \"'s class (\" + \n                    moduleClassName_i + \") doesn't have a corresponding Class Definition Usage Scenario dataset.\";\n            }\n            else {\n                // The current tag has all of the datasets required.\n                // Default the number of usage scenario matches\n                var UsageScenarioMatchCount = 0;\n                \n                // Iterate the usage scenarios for this module's class\n                for (j = 0; j < cDef_UsageScenarios_i.UsageScenarios.length; j++){\n                    // Cache a reference to the current usage scenario to check\n                    var usageScenario_i = cDef_UsageScenarios_i.UsageScenarios[j];\n                    \n                    // Default the flag for all parameters match to true;\n                    // If any parameter doesn't match, it will be reset to false.\n                    var AllParametersMatch = true\n                    \n                    // Iterate the parameters in the current usage scenario\n                    for (k = 0; k < usageScenario_i.Parameters.length; k++){\n                        // Cache a reference to the current usage scenario to check\n                        var parameter_i = usageScenario_i.Parameters[k];\n                        \n                        // Debug Messages\n                        msg.log = msg.log + \"\\n\" + \"Parameter Name = \" + parameter_i.ParameterName + \".\";\n                        msg.log = msg.log + \"\\n\" + \"Parameter Exists = \" + parameter_i.ParameterMappingExists + \".\";\n                        \n                        // Pull the configuration from the module data table for the current parameter\n                        moduleParamConfig = moduleData_i[parameter_i.ParameterName];\n                        if (moduleParamConfig === null) {\n                            // Blank cells in the data table show up as null.\n                            // Convert them to empty strings\n                            moduleParamConfig = \"\";\n                        } \n                        \n                        // Debug messages\n                        msg.log = msg.log + \"\\n\" + \"Parameter Value = \" + moduleParamConfig + \".\";\n                        \n                        // Test if the module's parameter exists\n                        // If it does, perform the comparison to the class definition\n                        // If it doesn't, log a validation error & mark it as a mismatch\n                        if ((moduleParamConfig === undefined)){\n                            // Log a validation error\n                            msg.validationErrors = msg.validationErrors + \"\\n\" + controller_i + \"'s \" + moduleTagName_i + \"'s data table (\" + \n                                moduleClassName_i + \") doesn't have a required class definition column (\" + \n                                parameter_i.ParameterName + \").\";\n                            \n                            // Mark this as a mismatch\n                            ParameterMatches = false;\n                        }\n                        else {\n                            // Debug messages\n                            msg.log = msg.log + \"\\n\" + \"Parameter Value Length = \" + moduleParamConfig.length + \".\";\n                            // Check the module's parameter config against the class definition\n                            ParameterMatches = ((moduleParamConfig.length > 0) == parameter_i.ParameterMappingExists)\n                            \n                            //TODO: Add validation against IO List\n                        }\n                        \n                        // Combine the current match with the aggregated match for the usage scenarion\n                        AllParametersMatch = AllParametersMatch && ParameterMatches;\n                        \n                        // Quit searching this usage scenario if anything mismatches\n                        if (!AllParametersMatch){\n                            break;\n                        }\n                    }\n                    \n                    // Test if all parameters match.  If so, increment the match count\n                    if (AllParametersMatch) {\n                        UsageScenarioMatchCount++;\n                    }\n                }\n                \n                // Test how many usage scenario matches were found\n                if (UsageScenarioMatchCount == 0){\n                    // Log a validation error\n                    msg.validationErrors = msg.validationErrors + \"\\n\" + controller_i + \"'s \" + moduleTagName_i + \" (\" + \n                        moduleClassName_i + \") doesn't have a matching Usage Scenario.\";\n                }\n                else if (UsageScenarioMatchCount > 1){\n                    // Log a validation error\n                    msg.validationErrors = msg.validationErrors + \"\\n\" + controller_i + \"'s \" + moduleTagName_i + \" (\" + \n                        moduleClassName_i + \") has more than one matching Usage Scenario (match count = \" + UsageScenarioMatchCount + \").\";\n                }\n                else {\n                    // Append the matching Usage Scenario name to the current module list row\n                    module_i.UsageScenario = usageScenario_i.UsageScenarioName;\n                }\n            }\n        }\n    }\n}\n\n// Return the result\nmsg.log = msg.log + \"\\n\" + \"Returning result.\";\n//msg.payload = {\"Modules\": modulesList};\nmsg.payload[\"Modules\"] = modulesList;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 273.0000305175781,
+    "y": 245.00001525878906,
+    "wires": [
+      [
+        "f3106140.3ab4b"
+      ]
+    ]
+  },
+  {
+    "id": "fe4b8d09.45ff8",
+    "type": "inject",
+    "z": "f8d89ec0.80f68",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 189,
+    "y": 368,
+    "wires": [
+      [
+        "d6e6fce6.12f718"
+      ]
+    ]
+  },
+  {
+    "id": "47fb61f4.af9a9",
+    "type": "function",
+    "z": "f8d89ec0.80f68",
+    "name": "Set file name",
+    "func": "msg.filename = \"Test Dynamic Filename.csv\";\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 638,
+    "y": 386,
+    "wires": [
+      [
+        "c8bdf3c4.e3b5e"
+      ]
+    ]
+  },
+  {
+    "id": "d6e6fce6.12f718",
+    "type": "load_dataset",
+    "z": "f8d89ec0.80f68",
+    "docid": "Interlocks Data (BBraun)",
+    "docname": "",
+    "version": "",
+    "name": "",
+    "sheets": [
+      {
+        "sheetname": "Interlocks",
+        "columns": [
+          "Controller",
+          "ModuleTagName",
+          "Index",
+          "ConditionCode",
+          "Description",
+          "IsDebounced",
+          "DebounceTime",
+          "OkayState",
+          "IsBypassable",
+          "CanNavigate",
+          "AssociatedTag"
+        ]
+      }
+    ],
+    "x": 402,
+    "y": 375,
+    "wires": [
+      [
+        "47fb61f4.af9a9"
+      ]
+    ]
+  },
+  {
+    "id": "53c5ee3f.e312e",
+    "type": "load_dataset",
+    "z": "f8d89ec0.80f68",
+    "docid": null,
+    "docname": "",
+    "version": null,
+    "name": "",
+    "x": 111,
+    "y": 46,
+    "wires": [
+      []
+    ]
+  }
+]
