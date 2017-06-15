@@ -505,6 +505,11 @@
               "value": 111,
               "format": "#",
               "index": 2
+            },
+            {
+              "value": 666,
+              "format": "#",
+              "index": 3
             }
           ]
         },
@@ -634,8 +639,8 @@
         }
       ],
       "columns": [],
-      "selection": "R1:R1",
-      "activeCell": "R1:R1",
+      "selection": "I7:I7",
+      "activeCell": "I7:I7",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
