@@ -647,11 +647,22 @@
               "index": 7
             }
           ]
+        },
+        {
+          "index": 15,
+          "height": 21,
+          "cells": [
+            {
+              "value": 111,
+              "format": "#",
+              "index": 7
+            }
+          ]
         }
       ],
       "columns": [],
-      "selection": "A14:AX14",
-      "activeCell": "A14:A14",
+      "selection": "H16:H16",
+      "activeCell": "H16:H16",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
