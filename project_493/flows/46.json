@@ -3000,8 +3000,8 @@
     "func": "\nmsg.options = \n        \"ControllerFilter\": \"\",\n        \"TaskFilter\": \"\",\n        \"ProgramFilter\": \"\",\n        \"RoutineFilter\": \"\",\n        \"ClassNameFilter\": \"\",\n        \"ModuleTagNameFilter\": \"\"\n\n\nmsg.payload=\n{\n    \"UiOptions\": {\n        \"ControllerFilter\": \"\",\n        \"TaskFilter\": \"\",\n        \"ProgramFilter\": \"\",\n        \"RoutineFilter\": \"\",\n        \"ClassNameFilter\": \"\",\n        \"ModuleTagNameFilter\": \"\"\n    }\n};\nreturn msg;",
     "outputs": 1,
     "noerr": 2,
-    "x": 494,
-    "y": 326,
+    "x": 775,
+    "y": 300,
     "wires": [
       []
     ]
