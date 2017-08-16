@@ -1,0 +1,20 @@
+[
+  {
+    "id": "9d59bd40.07b0a",
+    "type": "tab",
+    "label": "Flow 1"
+  },
+  {
+    "id": "6e08d638.888aa8",
+    "type": "upload_file",
+    "z": "9d59bd40.07b0a",
+    "filename": "",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 154,
+    "y": 163,
+    "wires": [
+      []
+    ]
+  }
+]
