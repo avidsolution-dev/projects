@@ -12,13 +12,18 @@
               "value": 11111,
               "format": "#",
               "index": 0
+            },
+            {
+              "value": 222,
+              "format": "#",
+              "index": 1
             }
           ]
         }
       ],
       "columns": [],
-      "selection": "A1:A1",
-      "activeCell": "A1:A1",
+      "selection": "B1:B1",
+      "activeCell": "B1:B1",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
