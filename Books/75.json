@@ -1,0 +1,36 @@
+{
+  "activeSheet": "Sheet1",
+  "sheets": [
+    {
+      "name": "Sheet1",
+      "rows": [
+        {
+          "index": 8,
+          "height": 21,
+          "cells": [
+            {
+              "value": ".,nlk;lkj'kj';",
+              "index": 6
+            }
+          ]
+        }
+      ],
+      "columns": [],
+      "selection": "B5:B5",
+      "activeCell": "B5:B5",
+      "frozenRows": 0,
+      "frozenColumns": 0,
+      "showGridLines": true,
+      "gridLinesColor": null,
+      "mergedCells": [],
+      "hyperlinks": [],
+      "defaultCellStyle": {
+        "fontFamily": "Arial",
+        "fontSize": "12"
+      }
+    }
+  ],
+  "names": [],
+  "columnWidth": 64,
+  "rowHeight": 20
+}
