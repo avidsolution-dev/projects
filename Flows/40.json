@@ -5,16 +5,84 @@
     "label": "Flow 1"
   },
   {
-    "id": "281d978b.d8e0b8",
+    "id": "cd1f48d0.464108",
     "type": "load_dataset",
+    "z": "ecfb2f98.b7495",
+    "docid": "Adocx",
+    "docname": "",
+    "version": "",
+    "name": "",
+    "sheets": "Raw File: a.docx",
+    "x": 354,
+    "y": 84,
+    "wires": [
+      [
+        "6a180b9f.da1064"
+      ]
+    ]
+  },
+  {
+    "id": "6a180b9f.da1064",
+    "type": "docx_templater",
     "z": "ecfb2f98.b7495",
     "docid": null,
     "docname": null,
     "version": null,
     "name": "",
     "sheets": [],
-    "x": 139,
-    "y": 81,
+    "x": 662,
+    "y": 134,
+    "wires": [
+      [
+        "f769cb05.f13b38"
+      ]
+    ]
+  },
+  {
+    "id": "a1742c10.d35bc",
+    "type": "function",
+    "z": "ecfb2f98.b7495",
+    "name": "",
+    "func": "msg.payload={a:\"xxx\", b:\"yyy\"};\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 350,
+    "y": 178,
+    "wires": [
+      [
+        "6a180b9f.da1064"
+      ]
+    ]
+  },
+  {
+    "id": "16bfd5cd.d7c92a",
+    "type": "inject",
+    "z": "ecfb2f98.b7495",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 138,
+    "y": 126,
+    "wires": [
+      [
+        "cd1f48d0.464108",
+        "a1742c10.d35bc"
+      ]
+    ]
+  },
+  {
+    "id": "f769cb05.f13b38",
+    "type": "upload_file",
+    "z": "ecfb2f98.b7495",
+    "filename": "TestNewArtifacts.docx",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 947,
+    "y": 131,
     "wires": [
       []
     ]
