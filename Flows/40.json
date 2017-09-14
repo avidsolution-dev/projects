@@ -43,7 +43,7 @@
     "type": "function",
     "z": "ecfb2f98.b7495",
     "name": "",
-    "func": "msg.payload={a:\"xxx\", b:\"yyy\"};\nreturn msg;",
+    "func": "msg.payload={a:\"111\", b:\"222\"};\nreturn msg;",
     "outputs": 1,
     "noerr": 0,
     "x": 350,
