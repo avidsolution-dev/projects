@@ -8,13 +8,60 @@
     "id": "ef9a7e8b.a5eed",
     "type": "load_dataset",
     "z": "a9756220.4c63a",
+    "docid": "DocXtemplate",
+    "docname": "",
+    "version": "",
+    "name": "",
+    "sheets": "Raw File: a.docx",
+    "x": 151,
+    "y": 111,
+    "wires": [
+      [
+        "5a8e13bf.e2545c"
+      ]
+    ]
+  },
+  {
+    "id": "5a8e13bf.e2545c",
+    "type": "docx_templater",
+    "z": "a9756220.4c63a",
     "docid": null,
     "docname": null,
     "version": null,
     "name": "",
-    "sheets": [],
-    "x": 161,
+    "x": 472,
     "y": 111,
+    "wires": [
+      [
+        "7aa5aa0d.ddbd44"
+      ]
+    ]
+  },
+  {
+    "id": "87eaf241.4a8cb",
+    "type": "function",
+    "z": "a9756220.4c63a",
+    "name": "",
+    "func": "msg.payload={a:'xxxxxxxxx', b:'yyyyyyyyyy'};\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 121,
+    "y": 181,
+    "wires": [
+      [
+        "5a8e13bf.e2545c"
+      ]
+    ]
+  },
+  {
+    "id": "7aa5aa0d.ddbd44",
+    "type": "upload_file",
+    "z": "a9756220.4c63a",
+    "filename": "Artifact1.docx",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 824,
+    "y": 121,
     "wires": [
       []
     ]
