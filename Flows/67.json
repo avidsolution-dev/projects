@@ -13,8 +13,8 @@
     "version": "",
     "name": "",
     "sheets": "Raw File: a.docx",
-    "x": 151,
-    "y": 111,
+    "x": 250,
+    "y": 59,
     "wires": [
       [
         "5a8e13bf.e2545c"
@@ -45,8 +45,8 @@
     "func": "msg.payload={a:'xxxxxxxxx', b:'yyyyyyyyyy'};\nreturn msg;",
     "outputs": 1,
     "noerr": 0,
-    "x": 121,
-    "y": 181,
+    "x": 247,
+    "y": 246,
     "wires": [
       [
         "5a8e13bf.e2545c"
@@ -64,6 +64,26 @@
     "y": 121,
     "wires": [
       []
+    ]
+  },
+  {
+    "id": "8bfb1a9e.f01438",
+    "type": "inject",
+    "z": "a9756220.4c63a",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 90,
+    "y": 150,
+    "wires": [
+      [
+        "ef9a7e8b.a5eed",
+        "87eaf241.4a8cb"
+      ]
     ]
   }
 ]
