@@ -42,10 +42,10 @@
     "id": "8ffdc5ab.4dbd58",
     "type": "upload_file",
     "z": "c8e3f734.ce93b8",
-    "filename": "",
+    "filename": "artifact.docx",
     "name": "",
     "overwriteFile": "true",
-    "x": 935,
+    "x": 975,
     "y": 80,
     "wires": [
       []
