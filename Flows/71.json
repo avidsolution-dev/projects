@@ -8,15 +8,83 @@
     "id": "9e572401.1ec298",
     "type": "load_dataset",
     "z": "c8e3f734.ce93b8",
-    "docid": "rrrrr",
+    "docid": "a_doctempl",
     "docname": "",
     "version": "",
     "name": "",
-    "sheets": "Raw File: 1.txt",
-    "x": 74,
-    "y": 86,
+    "sheets": "Raw File: a.docx",
+    "x": 342,
+    "y": 79,
+    "wires": [
+      [
+        "48848d36.4f6ab4"
+      ]
+    ]
+  },
+  {
+    "id": "48848d36.4f6ab4",
+    "type": "docx_templater",
+    "z": "c8e3f734.ce93b8",
+    "docid": null,
+    "docname": null,
+    "version": null,
+    "name": "",
+    "sheets": [],
+    "x": 633,
+    "y": 90,
+    "wires": [
+      [
+        "8ffdc5ab.4dbd58"
+      ]
+    ]
+  },
+  {
+    "id": "8ffdc5ab.4dbd58",
+    "type": "upload_file",
+    "z": "c8e3f734.ce93b8",
+    "filename": "",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 935,
+    "y": 80,
     "wires": [
       []
+    ]
+  },
+  {
+    "id": "e5d8345a.f0c828",
+    "type": "function",
+    "z": "c8e3f734.ce93b8",
+    "name": "",
+    "func": "msg.payload={a:\"aaa\", b:\"bbb\"}\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 331,
+    "y": 164,
+    "wires": [
+      [
+        "48848d36.4f6ab4"
+      ]
+    ]
+  },
+  {
+    "id": "dd1accf6.9c991",
+    "type": "inject",
+    "z": "c8e3f734.ce93b8",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 114,
+    "y": 132,
+    "wires": [
+      [
+        "9e572401.1ec298",
+        "e5d8345a.f0c828"
+      ]
     ]
   }
 ]
