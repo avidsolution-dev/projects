@@ -27,6 +27,17 @@
           ]
         },
         {
+          "index": 3,
+          "height": 21,
+          "cells": [
+            {
+              "value": 3,
+              "format": "#",
+              "index": 0
+            }
+          ]
+        },
+        {
           "index": 0,
           "cells": [
             {
@@ -38,8 +49,8 @@
         }
       ],
       "columns": [],
-      "selection": "A3:A3",
-      "activeCell": "A3:A3",
+      "selection": "A4:A4",
+      "activeCell": "A4:A4",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
