@@ -13,22 +13,11 @@
               "index": 0
             }
           ]
-        },
-        {
-          "index": 1,
-          "height": 21,
-          "cells": [
-            {
-              "value": 1,
-              "format": "#",
-              "index": 0
-            }
-          ]
         }
       ],
       "columns": [],
-      "selection": "A2:A2",
-      "activeCell": "A2:A2",
+      "selection": "Q8:Q8",
+      "activeCell": "Q8:Q8",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
