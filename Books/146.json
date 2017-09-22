@@ -5,6 +5,17 @@
       "name": "Sheet1",
       "rows": [
         {
+          "index": 1,
+          "height": 21,
+          "cells": [
+            {
+              "value": 1,
+              "format": "#",
+              "index": 0
+            }
+          ]
+        },
+        {
           "index": 0,
           "cells": [
             {
@@ -16,8 +27,8 @@
         }
       ],
       "columns": [],
-      "selection": "A1:A1",
-      "activeCell": "A1:A1",
+      "selection": "A2:A2",
+      "activeCell": "A2:A2",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
