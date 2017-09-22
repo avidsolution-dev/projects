@@ -38,6 +38,17 @@
       "defaultCellStyle": {
         "fontFamily": "Arial",
         "fontSize": "12"
+      },
+      "filter": {
+        "ref": "A1:A1",
+        "columns": [
+          {
+            "filter": "top",
+            "type": "topPercent",
+            "value": 100,
+            "index": 0
+          }
+        ]
       }
     }
   ],
