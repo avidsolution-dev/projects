@@ -55,11 +55,11 @@
     "id": "e5d8345a.f0c828",
     "type": "function",
     "z": "c8e3f734.ce93b8",
-    "name": "",
+    "name": "provider",
     "func": "msg.payload={a:\"aaa\", b:\"bbb\"}\nreturn msg;",
     "outputs": 1,
     "noerr": 0,
-    "x": 331,
+    "x": 341,
     "y": 164,
     "wires": [
       [
