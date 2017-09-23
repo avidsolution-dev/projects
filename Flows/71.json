@@ -45,8 +45,8 @@
     "filename": "artifact.docx",
     "name": "",
     "overwriteFile": "true",
-    "x": 975,
-    "y": 80,
+    "x": 968,
+    "y": 115,
     "wires": [
       []
     ]
