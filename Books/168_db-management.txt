@@ -1,0 +1,7 @@
+drop table "ProjectsDatasets";
+drop table "UserGroupsPermission";
+drop table "GroupsProjects";
+drop table "GroupsDatasets";
+drop table "OrgsUsers";
+drop table "GroupsUsers";
+
