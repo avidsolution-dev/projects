@@ -35,11 +35,22 @@
               "index": 0
             }
           ]
+        },
+        {
+          "index": 3,
+          "height": 21,
+          "cells": [
+            {
+              "format": "#",
+              "value": 3,
+              "index": 0
+            }
+          ]
         }
       ],
       "columns": [],
-      "selection": "A3:A3",
-      "activeCell": "A3:A3",
+      "selection": "A4:A4",
+      "activeCell": "A4:A4",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
