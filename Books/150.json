@@ -55,13 +55,18 @@
               "format": "#",
               "value": 4,
               "index": 0
+            },
+            {
+              "format": "#",
+              "value": 6,
+              "index": 1
             }
           ]
         }
       ],
       "columns": [],
-      "selection": "A5:A5",
-      "activeCell": "A5:A5",
+      "selection": "B5:B5",
+      "activeCell": "B5:B5",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
