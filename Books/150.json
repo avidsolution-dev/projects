@@ -19,16 +19,27 @@
           "height": 21,
           "cells": [
             {
-              "value": 1,
               "format": "#",
+              "value": 1,
+              "index": 0
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "height": 21,
+          "cells": [
+            {
+              "format": "#",
+              "value": 2,
               "index": 0
             }
           ]
         }
       ],
       "columns": [],
-      "selection": "A2:A2",
-      "activeCell": "A2:A2",
+      "selection": "A3:A3",
+      "activeCell": "A3:A3",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
