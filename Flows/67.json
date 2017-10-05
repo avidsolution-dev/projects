@@ -60,8 +60,8 @@
     "filename": "Artifact1.docx",
     "name": "",
     "overwriteFile": "true",
-    "x": 824,
-    "y": 121,
+    "x": 858,
+    "y": 120,
     "wires": [
       []
     ]
