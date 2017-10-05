@@ -34,13 +34,18 @@
               "format": "#",
               "value": 4,
               "index": 0
+            },
+            {
+              "format": "#",
+              "value": 4,
+              "index": 1
             }
           ]
         }
       ],
       "columns": [],
-      "selection": "A3:A3",
-      "activeCell": "A3:A3",
+      "selection": "B3:B3",
+      "activeCell": "B3:B3",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
