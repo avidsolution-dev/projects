@@ -18,5 +18,18 @@
     "wires": [
       []
     ]
+  },
+  {
+    "id": "8fdce44a.696e98",
+    "type": "upload_file",
+    "z": "30c5cab3.a3d6e6",
+    "filename": "",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 151,
+    "y": 201,
+    "wires": [
+      []
+    ]
   }
 ]
