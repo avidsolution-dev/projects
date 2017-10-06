@@ -86,5 +86,86 @@
         "e5d8345a.f0c828"
       ]
     ]
+  },
+  {
+    "id": "3c3756dc.2286fa",
+    "type": "inject",
+    "z": "c8e3f734.ce93b8",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 177,
+    "y": 350,
+    "wires": [
+      [
+        "cf15b6e4.d07a58"
+      ]
+    ]
+  },
+  {
+    "id": "cf15b6e4.d07a58",
+    "type": "upload_file",
+    "z": "c8e3f734.ce93b8",
+    "filename": "texts.txt",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 550,
+    "y": 369,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "27f6410a.8a69fe",
+    "type": "load_dataset",
+    "z": "c8e3f734.ce93b8",
+    "kind": "artifact",
+    "docid": "texts.txt",
+    "docname": "",
+    "version": "",
+    "name": "",
+    "sheets": "Raw File: texts.txt",
+    "x": 371,
+    "y": 279,
+    "wires": [
+      [
+        "3446f263.c3c27e"
+      ]
+    ]
+  },
+  {
+    "id": "3446f263.c3c27e",
+    "type": "debug",
+    "z": "c8e3f734.ce93b8",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "false",
+    "x": 677,
+    "y": 262,
+    "wires": []
+  },
+  {
+    "id": "a629eeae.33c5f",
+    "type": "inject",
+    "z": "c8e3f734.ce93b8",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 117,
+    "y": 272,
+    "wires": [
+      [
+        "27f6410a.8a69fe"
+      ]
+    ]
   }
 ]
