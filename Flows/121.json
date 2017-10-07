@@ -1,0 +1,91 @@
+[
+  {
+    "id": "a75b510c.d6c53",
+    "type": "tab",
+    "label": "Flow 1"
+  },
+  {
+    "id": "775f4e15.c644f",
+    "type": "load_dataset",
+    "z": "a75b510c.d6c53",
+    "kind": "dataset",
+    "docid": "143",
+    "docname": "a_doctempl",
+    "version": "",
+    "name": "",
+    "sheets": "Raw File: a.docx",
+    "x": 434,
+    "y": 60,
+    "wires": [
+      [
+        "273d1a5f.579276"
+      ]
+    ]
+  },
+  {
+    "id": "a9039cf1.2b455",
+    "type": "inject",
+    "z": "a75b510c.d6c53",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 140,
+    "y": 72,
+    "wires": [
+      [
+        "775f4e15.c644f",
+        "f3ef71e1.f1e28"
+      ]
+    ]
+  },
+  {
+    "id": "273d1a5f.579276",
+    "type": "docx_templater",
+    "z": "a75b510c.d6c53",
+    "docid": null,
+    "docname": null,
+    "version": null,
+    "name": "",
+    "sheets": [],
+    "x": 811,
+    "y": 75,
+    "wires": [
+      [
+        "b9e0652b.b33ad8"
+      ]
+    ]
+  },
+  {
+    "id": "f3ef71e1.f1e28",
+    "type": "function",
+    "z": "a75b510c.d6c53",
+    "name": "",
+    "func": "msg.payload={a:'a', b:'bbb'};\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 453,
+    "y": 154,
+    "wires": [
+      [
+        "273d1a5f.579276"
+      ]
+    ]
+  },
+  {
+    "id": "b9e0652b.b33ad8",
+    "type": "upload_file",
+    "z": "a75b510c.d6c53",
+    "filename": "newtest.docx",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 1124,
+    "y": 75,
+    "wires": [
+      []
+    ]
+  }
+]
