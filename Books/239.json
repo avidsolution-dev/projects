@@ -14,22 +14,11 @@
               "index": 0
             }
           ]
-        },
-        {
-          "index": 1,
-          "height": 21,
-          "cells": [
-            {
-              "format": "#",
-              "value": 22222,
-              "index": 0
-            }
-          ]
         }
       ],
       "columns": [],
-      "selection": "A2:A2",
-      "activeCell": "A2:A2",
+      "selection": "A1:A1",
+      "activeCell": "A1:A1",
       "frozenRows": 0,
       "frozenColumns": 0,
       "showGridLines": true,
