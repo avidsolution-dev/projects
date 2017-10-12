@@ -65,5 +65,67 @@
     "wires": [
       []
     ]
+  },
+  {
+    "id": "60be42c4.c0f90c",
+    "type": "inject",
+    "z": "5f69c8d7.c79148",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 159,
+    "y": 337,
+    "wires": [
+      [
+        "192480cd.bac84f"
+      ]
+    ]
+  },
+  {
+    "id": "192480cd.bac84f",
+    "type": "function",
+    "z": "5f69c8d7.c79148",
+    "name": "",
+    "func": "msg.payload=\"test1 test1 test1\";\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 536,
+    "y": 325,
+    "wires": [
+      [
+        "258a86d3.9af9fa",
+        "d94a1e8d.00b9"
+      ]
+    ]
+  },
+  {
+    "id": "258a86d3.9af9fa",
+    "type": "upload_file",
+    "z": "5f69c8d7.c79148",
+    "filename": "test1.txt",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 917,
+    "y": 288,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "d94a1e8d.00b9",
+    "type": "upload_file",
+    "z": "5f69c8d7.c79148",
+    "filename": "test2.txt",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 879,
+    "y": 363,
+    "wires": [
+      []
+    ]
   }
 ]
