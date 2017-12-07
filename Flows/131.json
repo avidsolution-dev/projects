@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ba09d9f2.1ba478",
+    "type": "tab",
+    "label": "Flow 1"
+  },
+  {
+    "id": "f07e64b1.f09bf8",
+    "type": "tab",
+    "label": "Flow 1"
+  },
+  {
+    "id": "c8adda54.7d63f8",
+    "type": "inject",
+    "z": "f07e64b1.f09bf8",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 100,
+    "y": 120,
+    "wires": [
+      [
+        "e2621a21.e030c8"
+      ]
+    ]
+  },
+  {
+    "id": "e2621a21.e030c8",
+    "type": "load_dataset",
+    "z": "f07e64b1.f09bf8",
+    "kind": "dataset",
+    "docid": "368",
+    "docname": "BaseAreaWithEngine.csv",
+    "version": "",
+    "name": "",
+    "sheets": "Raw File: BaseAreaWithEngine.csv",
+    "x": 310,
+    "y": 120,
+    "wires": [
+      [
+        "1b67c7f8.fcb608"
+      ]
+    ]
+  },
+  {
+    "id": "1b67c7f8.fcb608",
+    "type": "function",
+    "z": "f07e64b1.f09bf8",
+    "name": "",
+    "func": "\n\nmsg.payload=Buffer.from(msg.payload).toString('utf16le');\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 530,
+    "y": 120,
+    "wires": [
+      [
+        "2ff8400d.ec4a8",
+        "c474b85e.99fe68"
+      ]
+    ]
+  },
+  {
+    "id": "2ff8400d.ec4a8",
+    "type": "change",
+    "z": "f07e64b1.f09bf8",
+    "name": "313",
+    "rules": [
+      {
+        "t": "change",
+        "p": "payload",
+        "pt": "msg",
+        "from": "320",
+        "fromt": "str",
+        "to": "313",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 725,
+    "y": 120,
+    "wires": [
+      [
+        "7eb2ee48.2c5da"
+      ]
+    ]
+  },
+  {
+    "id": "c474b85e.99fe68",
+    "type": "change",
+    "z": "f07e64b1.f09bf8",
+    "name": "314",
+    "rules": [
+      {
+        "t": "change",
+        "p": "payload",
+        "pt": "msg",
+        "from": "320",
+        "fromt": "str",
+        "to": "314",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 723,
+    "y": 161,
+    "wires": [
+      [
+        "8026a4ac.aa8388"
+      ]
+    ]
+  },
+  {
+    "id": "227a6ada.6a6756",
+    "type": "upload_file",
+    "z": "f07e64b1.f09bf8",
+    "filename": "",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 1080,
+    "y": 120,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7eb2ee48.2c5da",
+    "type": "function",
+    "z": "f07e64b1.f09bf8",
+    "name": "",
+    "func": "\n\nmsg.filename = \"313_import.csv\";\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 910,
+    "y": 120,
+    "wires": [
+      [
+        "227a6ada.6a6756"
+      ]
+    ]
+  },
+  {
+    "id": "ac72776e.123008",
+    "type": "upload_file",
+    "z": "f07e64b1.f09bf8",
+    "filename": "",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 1080,
+    "y": 160,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "8026a4ac.aa8388",
+    "type": "function",
+    "z": "f07e64b1.f09bf8",
+    "name": "",
+    "func": "\n\nmsg.filename = \"314_import.csv\";\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 910,
+    "y": 160,
+    "wires": [
+      [
+        "ac72776e.123008"
+      ]
+    ]
+  }
+]
