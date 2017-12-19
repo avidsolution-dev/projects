@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="28.01" TargetName="b_Diagnostics" TargetType="Program" ContainsContext="true" Owner="Avid, Avid Solutions" ExportDate="Tue Dec 19 14:20:40 2017" ExportOptions="References DecoratedData Context RoutineLabels AliasExtras IOTags NoStringData ForceProtectedEncoding AllProjDocTrans"><Controller Use="Context" Name="CNTR_2950"><Programs Use="Context"><Program Use="Target" Name="b_Diagnostics" TestEdits="false" Disabled="false" MainRoutineName="MainRoutine" FaultRoutineName="FaultRoutine"><Routines><Routine Name="MainRoutine" Type="RLL"><RLLContent><Rung Number="0" Type="N"><Comment><![CDATA[MainRoutine Routine
+Purpose:  Main routine for the b_Diagnostics program.
+
+History:
+Rev    Date        Author        Comment
+
+]]></Comment><Text><![CDATA[NOP();]]></Text></Rung><Rung Number="1" Type="N"><Comment><![CDATA[Execute the MainRoutine routine.]]></Comment><Text><![CDATA[JSR(MainRoutine,0);]]></Text></Rung></RLLContent></Routine><Routine Name="FaultRoutine" Type="RLL"><RLLContent><Rung Number="0" Type="N"><Comment><![CDATA[ 
+FaultRoutine Routine
+Purpose:  Fault routine for the b_Diagnostics program.
+
+History:
+Rev    Date        Author        Comment
+
+]]></Comment><Text><![CDATA[NOP();]]></Text></Rung></RLLContent></Routine><Routine Name="MainRoutine" Type="RLL"><RLLContent><Rung Number="0" Type="N"><Comment><![CDATA[MainRoutine Routine
+Purpose:  Main routine for the b_Diagnostics program.
+
+History:
+Rev    Date        Author        Comment
+
+]]></Comment><Text><![CDATA[NOP();]]></Text></Rung><Rung Number="1" Type="N"><Comment><![CDATA[============================================================
+TASK MONITOR
+'============================================================
+This rung monitors THIS Task and provides information on the Task
+and an Alarm if the Task Execution Time exceeds a "Plan" threshold.]]></Comment><Text><![CDATA[L_TaskMon(L_TaskMonitor[1]);]]></Text></Rung></RLLContent></Routine></Routines></Program></Programs></Controller></RSLogix5000Content>
