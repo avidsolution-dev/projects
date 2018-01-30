@@ -127,5 +127,17 @@
     "wires": [
       []
     ]
+  },
+  {
+    "id": "bc74b425.2ccfa8",
+    "type": "docx_templater",
+    "z": "5f69c8d7.c79148",
+    "templatetype": "Table",
+    "name": "",
+    "x": 282,
+    "y": 187,
+    "wires": [
+      []
+    ]
   }
 ]
