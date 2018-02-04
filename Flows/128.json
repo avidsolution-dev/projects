@@ -129,15 +129,33 @@
     ]
   },
   {
-    "id": "4d3f57c.fe029a8",
+    "id": "b6572bb7.92eb18",
+    "type": "load_dataset",
+    "z": "5f69c8d7.c79148",
+    "kind": "dataset",
+    "docid": "285",
+    "docname": "",
+    "version": "",
+    "name": "",
+    "sheets": "Raw File: table2.docx",
+    "x": 351,
+    "y": 192,
+    "wires": [
+      [
+        "6aedc2b5.69e05c"
+      ]
+    ]
+  },
+  {
+    "id": "195c4d41.2a9bdb",
     "type": "function",
     "z": "5f69c8d7.c79148",
     "name": "",
-    "func": "const lorem = \"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\";\nmsg.payload={\n    table1: {\n\t\tfixedColumns: [null, \"Example 1\", null, \"Example 2\"],\n\t\twidths: [100, 150, 320, 100],\n\t\theader: [\"Source\", \"Hazard\", \"Handling\", \"Protection\"],\n\t\tsubheader: [\"The source\", \"The Hazard\", \"The Handling\", \"The Protection\"],\n\t\tchunkSize: 6,\n\t\tdata: [\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t],\n\t}\n} \nreturn msg;",
+    "func": "const lorem = \"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\";\nmsg.payload={\n    xxx:\"AAAAA\",\n    table2:{data:[\n        [\"A\",\"B\"]\n        ]\n    },\n    table1: {\n\t\tfixedColumns: [null, \"Example 1\", null, \"Example 2\"],\n\t\twidths: [100, 150, 320, 100],\n\t\theader: [\"Source\", \"Hazard\", \"Handling\", \"Protection\"],\n\t\tsubheader: [\"The source\", \"The Hazard\", \"The Handling\", \"The Protection\"],\n\t\tchunkSize: 6,\n\t\tdata: [\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t],\n\t}\n} \nreturn msg;",
     "outputs": 1,
     "noerr": 0,
-    "x": 340,
-    "y": 292,
+    "x": 356,
+    "y": 322,
     "wires": [
       [
         "6aedc2b5.69e05c"
@@ -150,8 +168,8 @@
     "z": "5f69c8d7.c79148",
     "docxmodule": "table",
     "name": "",
-    "x": 619,
-    "y": 228,
+    "x": 629,
+    "y": 257,
     "wires": [
       [
         "cedebf18.255d4",
@@ -170,30 +188,12 @@
     "repeat": "",
     "crontab": "",
     "once": false,
-    "x": 158,
-    "y": 261,
+    "x": 168,
+    "y": 290,
     "wires": [
       [
-        "97d87673.511b7",
-        "4d3f57c.fe029a8"
-      ]
-    ]
-  },
-  {
-    "id": "97d87673.511b7",
-    "type": "load_dataset",
-    "z": "5f69c8d7.c79148",
-    "kind": "dataset",
-    "docid": "283",
-    "docname": "table1.docx",
-    "version": "",
-    "name": "",
-    "sheets": "Raw File: table1.docx",
-    "x": 363,
-    "y": 197,
-    "wires": [
-      [
-        "6aedc2b5.69e05c"
+        "195c4d41.2a9bdb",
+        "b6572bb7.92eb18"
       ]
     ]
   },
@@ -204,8 +204,8 @@
     "filename": "testtable.docx",
     "name": "",
     "overwriteFile": "true",
-    "x": 946,
-    "y": 225,
+    "x": 956,
+    "y": 254,
     "wires": [
       []
     ]
@@ -218,8 +218,8 @@
     "active": true,
     "console": "false",
     "complete": "false",
-    "x": 944,
-    "y": 271,
+    "x": 954,
+    "y": 300,
     "wires": []
   }
 ]
