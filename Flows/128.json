@@ -77,8 +77,8 @@
     "repeat": "",
     "crontab": "",
     "once": false,
-    "x": 159,
-    "y": 337,
+    "x": 179,
+    "y": 488,
     "wires": [
       [
         "192480cd.bac84f"
@@ -93,8 +93,8 @@
     "func": "msg.payload=\"test1 test1 test1\";\nreturn msg;",
     "outputs": 1,
     "noerr": 0,
-    "x": 536,
-    "y": 325,
+    "x": 556,
+    "y": 476,
     "wires": [
       [
         "258a86d3.9af9fa",
@@ -109,8 +109,8 @@
     "filename": "test1.txt",
     "name": "",
     "overwriteFile": "true",
-    "x": 917,
-    "y": 288,
+    "x": 937,
+    "y": 439,
     "wires": [
       []
     ]
@@ -122,22 +122,104 @@
     "filename": "test2.txt",
     "name": "",
     "overwriteFile": "true",
-    "x": 879,
-    "y": 363,
+    "x": 899,
+    "y": 514,
     "wires": [
       []
     ]
   },
   {
-    "id": "bc74b425.2ccfa8",
+    "id": "4d3f57c.fe029a8",
+    "type": "function",
+    "z": "5f69c8d7.c79148",
+    "name": "",
+    "func": "const lorem = \"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\";\nmsg.payload={\n    table1: {\n\t\tfixedColumns: [null, \"Example 1\", null, \"Example 2\"],\n\t\twidths: [100, 150, 320, 100],\n\t\theader: [\"Source\", \"Hazard\", \"Handling\", \"Protection\"],\n\t\tsubheader: [\"The source\", \"The Hazard\", \"The Handling\", \"The Protection\"],\n\t\tchunkSize: 6,\n\t\tdata: [\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"A1\", lorem],\n\t\t\t[\"B1\", lorem],\n\t\t\t[\"C1\", lorem],\n\t\t],\n\t}\n} \nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 340,
+    "y": 292,
+    "wires": [
+      [
+        "6aedc2b5.69e05c"
+      ]
+    ]
+  },
+  {
+    "id": "6aedc2b5.69e05c",
     "type": "docx_templater",
     "z": "5f69c8d7.c79148",
-    "templatetype": "Table",
+    "docxmodule": "table",
     "name": "",
-    "x": 282,
-    "y": 187,
+    "x": 619,
+    "y": 228,
+    "wires": [
+      [
+        "cedebf18.255d4",
+        "7f0f969f.d37cf"
+      ]
+    ]
+  },
+  {
+    "id": "a3edd02d.2835",
+    "type": "inject",
+    "z": "5f69c8d7.c79148",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 158,
+    "y": 261,
+    "wires": [
+      [
+        "97d87673.511b7",
+        "4d3f57c.fe029a8"
+      ]
+    ]
+  },
+  {
+    "id": "97d87673.511b7",
+    "type": "load_dataset",
+    "z": "5f69c8d7.c79148",
+    "kind": "dataset",
+    "docid": "283",
+    "docname": "table1.docx",
+    "version": "",
+    "name": "",
+    "sheets": "Raw File: table1.docx",
+    "x": 363,
+    "y": 197,
+    "wires": [
+      [
+        "6aedc2b5.69e05c"
+      ]
+    ]
+  },
+  {
+    "id": "cedebf18.255d4",
+    "type": "upload_file",
+    "z": "5f69c8d7.c79148",
+    "filename": "testtable.docx",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 946,
+    "y": 225,
     "wires": [
       []
     ]
+  },
+  {
+    "id": "7f0f969f.d37cf",
+    "type": "debug",
+    "z": "5f69c8d7.c79148",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "false",
+    "x": 944,
+    "y": 271,
+    "wires": []
   }
 ]
