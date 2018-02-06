@@ -77,8 +77,8 @@
     "repeat": "",
     "crontab": "",
     "once": false,
-    "x": 179,
-    "y": 488,
+    "x": 187,
+    "y": 667,
     "wires": [
       [
         "192480cd.bac84f"
@@ -93,8 +93,8 @@
     "func": "msg.payload=\"test1 test1 test1\";\nreturn msg;",
     "outputs": 1,
     "noerr": 0,
-    "x": 556,
-    "y": 476,
+    "x": 564,
+    "y": 655,
     "wires": [
       [
         "258a86d3.9af9fa",
@@ -109,8 +109,8 @@
     "filename": "test1.txt",
     "name": "",
     "overwriteFile": "true",
-    "x": 937,
-    "y": 439,
+    "x": 945,
+    "y": 618,
     "wires": [
       []
     ]
@@ -122,8 +122,8 @@
     "filename": "test2.txt",
     "name": "",
     "overwriteFile": "true",
-    "x": 899,
-    "y": 514,
+    "x": 907,
+    "y": 693,
     "wires": [
       []
     ]
@@ -221,5 +221,73 @@
     "x": 954,
     "y": 300,
     "wires": []
+  },
+  {
+    "id": "bb3c70ac.bbb538",
+    "type": "docx_templater",
+    "z": "5f69c8d7.c79148",
+    "docxmodule": "table.vertical",
+    "name": "",
+    "x": 646.88330078125,
+    "y": 410.8833312988281,
+    "wires": [
+      [
+        "cedebf18.255d4"
+      ]
+    ]
+  },
+  {
+    "id": "d429e94c.3fa198",
+    "type": "function",
+    "z": "5f69c8d7.c79148",
+    "name": "",
+    "func": "msg.payload={\n  \"users\": [\n    {\n      \"index\": 1,\n      \"name\": \"John\",\n      \"age\": 44,\n      \"address\": \"3374 Olen Thomas Drive Frisco Texas 75034\"\n    },\n    {\n      \"index\": 2,\n      \"name\": \"Mary\",\n      \"age\": 31,\n      \"address\": \"352 Illinois Avenue Yamhill Oregon(OR) 97148\"\n    },\n    {\n      \"index\": 2,\n      \"name\": \"Leo\",\n      \"age\": 5,\n      \"address\": \"1402 Pearcy Avenue Fort Wayne  Indiana(IN) 46804\"\n    }\n  ]\n};\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 386.88336181640625,
+    "y": 513.2167053222656,
+    "wires": [
+      [
+        "bb3c70ac.bbb538"
+      ]
+    ]
+  },
+  {
+    "id": "ef3f5076.979b5",
+    "type": "inject",
+    "z": "5f69c8d7.c79148",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 142.88336181640625,
+    "y": 454.7500305175781,
+    "wires": [
+      [
+        "d429e94c.3fa198",
+        "5251a650.6ed898"
+      ]
+    ]
+  },
+  {
+    "id": "5251a650.6ed898",
+    "type": "load_dataset",
+    "z": "5f69c8d7.c79148",
+    "kind": "dataset",
+    "docid": "286",
+    "docname": "vertical-table.docx2",
+    "version": "",
+    "name": "",
+    "sheets": "Raw File: vertical-table.docx",
+    "x": 383.88336181640625,
+    "y": 440.183349609375,
+    "wires": [
+      [
+        "bb3c70ac.bbb538"
+      ]
+    ]
   }
 ]
