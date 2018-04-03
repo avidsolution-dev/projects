@@ -1,0 +1,6391 @@
+{
+  "PhaseSteps": {
+    "headers": [
+      {
+        "A": "HandshakeTagName"
+      },
+      {
+        "B": "ActionText"
+      }
+    ],
+    "data": [
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetCrudeUFLoadVslStsUnavailable",
+          "s"
+        ],
+        "B": [
+          "Set CrudeUF Load Sts Unavail",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "AcquireEquipment",
+          "s"
+        ],
+        "B": [
+          "Acquire Equipment",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselTempCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Temp EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "CheckVesselLowLevel",
+          "s"
+        ],
+        "B": [
+          "Check Vessel Low Level",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMShutdownProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Shutdown",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetHygienicStatusInUse",
+          "s"
+        ],
+        "B": [
+          "Set Hygeniec Status In Use",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "ResetStartUFCHT",
+          "s"
+        ],
+        "B": [
+          "Reset/Start UF Skid CHT",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMShutdownProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Shutdown",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMShutdownProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Shutdown",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMShutdownScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Shutdown",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselTempCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Temp EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselAgitCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Agitator EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "ReleaseEquipment",
+          "s"
+        ],
+        "B": [
+          "Release Equipment",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Proc",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetInitPressWatchdogTmrSP",
+          "s"
+        ],
+        "B": [
+          "Set Init Press Wdog Tmr SP",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StartInitPressWatchdogTmr",
+          "s"
+        ],
+        "B": [
+          "Start Init Press Wdog Tmr",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "EnbInitPressWatchdogTmrFailCond",
+          "s"
+        ],
+        "B": [
+          "Enable Init P Wdog Fail Cond ",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "WaitVesselPressPV",
+          "s"
+        ],
+        "B": [
+          "Wait for Vessel Pressure PV",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressureCtrlEMHold",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Hold",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "DisInitPressWatchdogTmrFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Init P Wdog Fail Cond ",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetInitialPressToPV",
+          "s"
+        ],
+        "B": [
+          "Set Init Press to PV",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "EnbPressLossFailCond",
+          "s"
+        ],
+        "B": [
+          "Enable Press Loss Fail Cond",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "WaitPressTestHoldTime",
+          "s"
+        ],
+        "B": [
+          "Wait Pressure Test Hold Time",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetFinalPress",
+          "s"
+        ],
+        "B": [
+          "Set Final Pressure",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "CalcPressureDrop",
+          "s"
+        ],
+        "B": [
+          "Calculate Pressure Drop",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "DisPressLossFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Press Loss Fail Cond",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMFixedVentCarb",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Fixed Carb",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "DisPressLossFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Press Loss Fail Cond",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMShutdownProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Shutdown",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetUFHygienicStatusDirty",
+          "s"
+        ],
+        "B": [
+          "Set UF Hyg Sts: Dirty",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "ResetStartDirtyHoldTimer",
+          "s"
+        ],
+        "B": [
+          "Reset Start Dirty Hold",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "ReleaseEquipment",
+          "s"
+        ],
+        "B": [
+          "Release Equipment",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Proc",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetWdogTimerSP",
+          "s"
+        ],
+        "B": [
+          "Set Watchdog Timer SP",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StartWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Start Watchdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "EnbWdogTimerFailCond",
+          "s"
+        ],
+        "B": [
+          "Enabled Wdog Tmr Fail Cond",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "WaitVesselPressPV",
+          "s"
+        ],
+        "B": [
+          "Wait for Vessel Pressure PV",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "DisWdogTimerFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Wdog Tmr Fail Cond",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "WaitPurgeHoldTime",
+          "s"
+        ],
+        "B": [
+          "Wait Purge Hold Time",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMFixedVentCarb",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Fixed Carb",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "WaitVesselPressPV",
+          "s"
+        ],
+        "B": [
+          "Wait for Vessel Pressure PV",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlOverlayProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Proc",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetWdogTimerSP",
+          "s"
+        ],
+        "B": [
+          "Set Watchdog Timer SP",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StartWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Start Watchdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "EnbWdogTimerFailCond",
+          "s"
+        ],
+        "B": [
+          "Enabled Wdog Tmr Fail Cond",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "WaitVesselPressPV",
+          "s"
+        ],
+        "B": [
+          "Wait for Vessel Pressure PV",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "DisWdogTimerFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Wdog Tmr Fail Cond",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMFixedVentCarb",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Fixed Carb",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMShutdownProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Shutdown",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetUFHygienicStatusDirty",
+          "s"
+        ],
+        "B": [
+          "Set UF Hyg Sts: Dirty",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "ResetStartDirtyHoldTimer",
+          "s"
+        ],
+        "B": [
+          "Reset Start Dirty Hold",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "ReleaseEquipment",
+          "s"
+        ],
+        "B": [
+          "Release Equipment",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlOverlayScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Scrub",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStartXfer",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Start Xfer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "EnableSyncHeldAbortFailCon",
+          "s"
+        ],
+        "B": [
+          "Enable Sync Hold Abort Fail",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetSolventStatusSolvPresent",
+          "s"
+        ],
+        "B": [
+          "Set Solvent Sts: Solvent Pres",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStopXfer",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Stop Xfer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "DisableSyncHeldAbortFailCon",
+          "s"
+        ],
+        "B": [
+          "Disable Sync Hold Abort Fail",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlOverlayScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Scrub",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStartFlush",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Start Flush",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "DisableSyncHeldAbortFailCon",
+          "s"
+        ],
+        "B": [
+          "Disable Sync Hold Abort Fail",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStopFlush",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Stop Flush",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlOverlayScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Scrub",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStartN2Blow",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Start N2Blow",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "EnableSyncHeldAbortFailCon",
+          "s"
+        ],
+        "B": [
+          "Enable Sync Hold Abort Fail",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStopN2Blow",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Stop N2Blow",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselAgitCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Agitator EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetStorageRequired",
+          "s"
+        ],
+        "B": [
+          "Set Storage Required",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMFixedVentScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vsl Press EM Fixed Scrub",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselAgitCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Agitator EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetUFHygienicStatusDirty",
+          "s"
+        ],
+        "B": [
+          "Set UF Hyg Sts: Dirty",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "ResetStartDirtyHoldTimer",
+          "s"
+        ],
+        "B": [
+          "Reset Start Dirty Hold",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "ReleaseEquipment",
+          "s"
+        ],
+        "B": [
+          "Release Equipment",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselAgitatorCtrlEMOperate",
+          "s"
+        ],
+        "B": [
+          "Vsl Agitator Ctrl Operate",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "CrudeUFLoadVesselPressCtrlEMCtrlScrub",
+          "s"
+        ],
+        "B": [
+          "Set Load Vsl Press EM Ctrl",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselTempCtrlEMCtrl",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Temp EM Ctrl",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetWdogTimerSP",
+          "s"
+        ],
+        "B": [
+          "Set Watchdog Timer SP",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StartWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Start Watchdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "EnbWdogTimerFailCond",
+          "s"
+        ],
+        "B": [
+          "Enabled Wdog Tmr Fail Cond",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "WaitVesselTempPV",
+          "s"
+        ],
+        "B": [
+          "Wait Vessel Temperature PV",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "DisWdogTimerFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Wdog Tmr Fail Cond",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StartColdHoldTmr",
+          "s"
+        ],
+        "B": [
+          "Start Cold Hold Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "RecordColdHold",
+          "s"
+        ],
+        "B": [
+          "Record Cold Hold",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StopResetColdHoldTmr",
+          "s"
+        ],
+        "B": [
+          "Stop Reset Cold Hold Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "CrudeUFLoadVesselPressCtrlEMCtrlScrub",
+          "s"
+        ],
+        "B": [
+          "Set Load Vsl Press EM Ctrl",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselTempCtrlEMCtrl",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Temp EM Ctrl",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetWdogTimerSP",
+          "s"
+        ],
+        "B": [
+          "Set Watchdog Timer SP",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StartWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Start Watchdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "EnbWdogTimerFailCond",
+          "s"
+        ],
+        "B": [
+          "Enabled Wdog Tmr Fail Cond",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "WaitVesselTempPV",
+          "s"
+        ],
+        "B": [
+          "Wait Vessel Temperature PV",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "DisWdogTimerFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Wdog Tmr Fail Cond",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselTempCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Temp EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMFixedVentScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vsl Press EM Fixed Scrub",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselTempCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Temp EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselAgitCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Agitator EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "VesselTempCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Temp EM Off",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "SetUFHygienicStatusDirty",
+          "s"
+        ],
+        "B": [
+          "Set UF Hyg Sts: Dirty",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "ResetStartDirtyHoldTimer",
+          "s"
+        ],
+        "B": [
+          "Reset Start Dirty Hold",
+          "s"
+        ]
+      },
+      {
+        "A": [
+          "ReleaseEquipment",
+          "s"
+        ],
+        "B": [
+          "Release Equipment",
+          "s"
+        ]
+      }
+    ]
+  },
+  "ActionText": {
+    "headers": [
+      {
+        "A": "Handshake Tag"
+      },
+      {
+        "B": "ActionText"
+      },
+      {
+        "C": "Length (max 30)"
+      }
+    ],
+    "data": [
+      {
+        "A": [
+          "AcquireEquipment",
+          "s"
+        ],
+        "B": [
+          "Acquire Equipment",
+          "s"
+        ],
+        "C": [
+          17,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselInletEMIso",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Inlet EM Isolate",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselOutletEMIso",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Outlet EM Isolate",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselTempCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Temp EM Off",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselAgitCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Agitator EM Off",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselXferEMIso",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Xfer EM Isolate",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WasteHdrEMIso",
+          "s"
+        ],
+        "B": [
+          "Set Waste Hdr EM Isolate",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFeedEMIso",
+          "s"
+        ],
+        "B": [
+          "Set Skid Feed EM Isolate",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidRetentateEMIso",
+          "s"
+        ],
+        "B": [
+          "Set Skid Retentate EM Isolate",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPermeateEMIso",
+          "s"
+        ],
+        "B": [
+          "Set Skid Permeate EM Isolate",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPressCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Skid Press EM Off",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFlowCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Skid Flow EM Off",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMShutdownProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Shutdown",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitAqWasteTkAvail",
+          "s"
+        ],
+        "B": [
+          "Wait for Aq Waste Tk Avail",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitAqOrgWasteTkAvail",
+          "s"
+        ],
+        "B": [
+          "Wait for Aq Org Waste Tk Avail",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "TareRetentateVesselWt",
+          "s"
+        ],
+        "B": [
+          "Tare Retentate Vessel Weight",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetHygienicStatusInUse",
+          "s"
+        ],
+        "B": [
+          "Set Hygeniec Status In Use",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Proc",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Scrub",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetRetPressAlmLimits",
+          "s"
+        ],
+        "B": [
+          "Set Ret Press Alarm Limits",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetNitrogenFlowAlmLimits",
+          "s"
+        ],
+        "B": [
+          "Set N2 Flow Alarm Limits",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPermeateEMXferAqOrg",
+          "s"
+        ],
+        "B": [
+          "Set Permeate EM Xfer Aq Org",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidRetentateEMN2Supply",
+          "s"
+        ],
+        "B": [
+          "Set Retentate EM N2 Supply",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetOverallWatchdogTmrSP",
+          "s"
+        ],
+        "B": [
+          "Set Overall Wdog Tmr SP",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StartOverallWatchdogTmr",
+          "s"
+        ],
+        "B": [
+          "Start Overall Wdog Tmr",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbOverallWatchdogTmrFailCond",
+          "s"
+        ],
+        "B": [
+          "Enable Overall Wdog Fail Cond",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetInitPressWatchdogTmrSP",
+          "s"
+        ],
+        "B": [
+          "Set Init Press Wdog Tmr SP",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StartInitPressWatchdogTmr",
+          "s"
+        ],
+        "B": [
+          "Start Init Press Wdog Tmr",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbInitPressWatchdogTmrFailCond",
+          "s"
+        ],
+        "B": [
+          "Enable Init P Wdog Fail Cond ",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitRetentatePressPV",
+          "s"
+        ],
+        "B": [
+          "Wait for Retentate Press PV",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisInitPressWatchdogTmrFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Init P Wdog Fail Cond ",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopInitPressWatchdogTmr",
+          "s"
+        ],
+        "B": [
+          "Stop Init Press Wdog Tmr",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitAirFlowStabTime",
+          "s"
+        ],
+        "B": [
+          "Wait for Air Flow Stab Time",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitIntegrityTestTime",
+          "s"
+        ],
+        "B": [
+          "Wait for Integrity Test Time",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbLowRetPressFailCond",
+          "s"
+        ],
+        "B": [
+          "Enable Lo Ret Press Fail Cond",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbHighNitrogenFlowFailCond",
+          "s"
+        ],
+        "B": [
+          "Enable Hi N2 Flow Fail Cond",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "RecordNitrogenFlowRate",
+          "s"
+        ],
+        "B": [
+          "Record N2 Flow Rate",
+          "s"
+        ],
+        "C": [
+          19,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisLowRetPressFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Lo Ret Press Fail Cond",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisHighNitrogenFlowFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Hi N2 Flow Fail Cond",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitIntegrityTestDepressTime",
+          "s"
+        ],
+        "B": [
+          "Wait Integ Test Depress Time",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMFixedVentCarb",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Fixed Carb",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPressCtrlEMFixed",
+          "s"
+        ],
+        "B": [
+          "Set Skid Press EM Fixed",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidRetentateEMRetRecirc",
+          "s"
+        ],
+        "B": [
+          "Set Retentate EM Ret Recirc",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitAbortDepressTime",
+          "s"
+        ],
+        "B": [
+          "Wait Abort Depress Time",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopWatchdogTmr",
+          "s"
+        ],
+        "B": [
+          "Stop Watchdog Timer",
+          "s"
+        ],
+        "C": [
+          19,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ReleaseEquipment",
+          "s"
+        ],
+        "B": [
+          "Release Equipment",
+          "s"
+        ],
+        "C": [
+          17,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetFlushRequiredYes",
+          "s"
+        ],
+        "B": [
+          "Set Flush Required: Yes",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselXferEMCIPSBypass",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Xfer EM CIPS Byp",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFeedEMFeedFlow",
+          "s"
+        ],
+        "B": [
+          "Set Skid Feed EM Feed Flow",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidRetentateEMDrainRetentate",
+          "s"
+        ],
+        "B": [
+          "Set Retentate EM Drain Ret",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPermeateEMXferOutAqOrg",
+          "s"
+        ],
+        "B": [
+          "Set Permeate EM Xfer Aq Org",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetAlarmLimits",
+          "s"
+        ],
+        "B": [
+          "Set Alarm Limits",
+          "s"
+        ],
+        "C": [
+          16,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncReadytoStartStorage",
+          "s"
+        ],
+        "B": [
+          "Sync: Ready to Start Storage",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncStartofStorage",
+          "s"
+        ],
+        "B": [
+          "Sync: Start of Storage",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitLineFillTime",
+          "s"
+        ],
+        "B": [
+          "Wait Line Fill Time",
+          "s"
+        ],
+        "C": [
+          19,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetFeedFlowAlarmLimits",
+          "s"
+        ],
+        "B": [
+          "Set Feed Flow Alarm Limits",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFlowCtrlEMBypassPump",
+          "s"
+        ],
+        "B": [
+          "Set Skid Flow EM Bypass Pump",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitFlowStabTime",
+          "s"
+        ],
+        "B": [
+          "Wait Flow Stabilization Time",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ResetRetentateFlowTot",
+          "s"
+        ],
+        "B": [
+          "Reset Retentate Flow Tot",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StartRetentateFlowTot",
+          "s"
+        ],
+        "B": [
+          "Start Retentate Flow Tot",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ResetPermeateFlowTot",
+          "s"
+        ],
+        "B": [
+          "Reset Permeate Flow Tot",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StartPermeateFlowTot",
+          "s"
+        ],
+        "B": [
+          "Start Permeate Flow Tot",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitFlowTotPVs",
+          "s"
+        ],
+        "B": [
+          "Wait Flow Tot PVs",
+          "s"
+        ],
+        "C": [
+          17,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncEndofStorage",
+          "s"
+        ],
+        "B": [
+          "Sync: End of Storage",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidRetentateEMDrainRetentateByp",
+          "s"
+        ],
+        "B": [
+          "Set Skid Ret EM Drain Ret Byp",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFeedEMMembraneByp",
+          "s"
+        ],
+        "B": [
+          "Set Skid Feed EM Membrane Byp",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselInletEMCIPSBypass",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Inlet EM CIPS Byp",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncReadytoStartFlush",
+          "s"
+        ],
+        "B": [
+          "Sync: Ready to Start Flush",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncStartofFlush",
+          "s"
+        ],
+        "B": [
+          "Sync: Start of Flush",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitLineRinseTime",
+          "s"
+        ],
+        "B": [
+          "Wait for Line Rinse Time",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncEndofFlush",
+          "s"
+        ],
+        "B": [
+          "Sync: End of Flush",
+          "s"
+        ],
+        "C": [
+          18,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncStartofDrain",
+          "s"
+        ],
+        "B": [
+          "Sync: Start of Drain",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitLineDrainTime",
+          "s"
+        ],
+        "B": [
+          "Wait for Line Drain Time",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncEndofDrain",
+          "s"
+        ],
+        "B": [
+          "Sync: End of Drain",
+          "s"
+        ],
+        "C": [
+          18,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WasteHdrEMXfrAqWaste",
+          "s"
+        ],
+        "B": [
+          "Set Waste Hdr EM Xfer Aq",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncReadyToStartAirBlow",
+          "s"
+        ],
+        "B": [
+          "Sync: Ready to Start Air Blow",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncStartofAirBlow",
+          "s"
+        ],
+        "B": [
+          "Sync: Start of Air Blow",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitAirBlowTime",
+          "s"
+        ],
+        "B": [
+          "Wait for Air Blow Time",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncEndofAirBlow",
+          "s"
+        ],
+        "B": [
+          "Sync: End of Air Blow",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetUFSkidStatusStored",
+          "s"
+        ],
+        "B": [
+          "Set UF Skid Status: Stored",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidRetentateEMDrainRet",
+          "s"
+        ],
+        "B": [
+          "Set Skid Ret EM to Drain Ret",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitAbortDrainTime",
+          "s"
+        ],
+        "B": [
+          "Wait for Abort Drain Time",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WasteHdrEMDrainAqWaste",
+          "s"
+        ],
+        "B": [
+          "Set Waste Hdr EM Drain Aq",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPermeateEMXfrAqOrg",
+          "s"
+        ],
+        "B": [
+          "Set Skid Perm EM Xfr Aq Org",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncStartofFlowPathToggle",
+          "s"
+        ],
+        "B": [
+          "Sync: Start of Flow Path Tog",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IndCIPSeqAborting",
+          "s"
+        ],
+        "B": [
+          "Indicate to CIP: Seq Aborting",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetUFHygienicStatusToBeCleaned",
+          "s"
+        ],
+        "B": [
+          "Set UF Hyg Sts: To Be Cleaned",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselInletEMWFISupply",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Inlet EM WFI Sup",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitWFIBagHolderAvail",
+          "s"
+        ],
+        "B": [
+          "Wait WFI Bag Holder Avail",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbWFIUnavailableFailCond",
+          "s"
+        ],
+        "B": [
+          "Enable WFI Unavail Fail Cond",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselLevelCtrlEMFixedFill",
+          "s"
+        ],
+        "B": [
+          "Set Vsl Lvl Ctrl EM Fixed Fill",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisWFIUnavailableFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable WFI Unavail Fail Cond",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselXferEMXferOutUFSkid",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Xfer EM Xfer Out UF",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselOutletEMXfer",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Outlet EM Xfer",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPressureCtrlEMFixedNWP",
+          "s"
+        ],
+        "B": [
+          "Set Skid Press EM Fixed NWP",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFlowCtrlEMFixedSpeed",
+          "s"
+        ],
+        "B": [
+          "Set Skid Flow EM Fixed Spd",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPressCtrlEMTMPConcI",
+          "s"
+        ],
+        "B": [
+          "Set Skid Press EM TMP",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPressCtrlEMTMPConcII",
+          "s"
+        ],
+        "B": [
+          "Set Skid Press EM TMP",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPressCtrlEMTMPDia",
+          "s"
+        ],
+        "B": [
+          "Set Skid Press EM TMP",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetWdogTimerSP",
+          "s"
+        ],
+        "B": [
+          "Set Watchdog Timer SP",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StartWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Start Watchdog Timer",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbWdogTimerFailCond",
+          "s"
+        ],
+        "B": [
+          "Enabled Wdog Tmr Fail Cond",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitTMPCalc",
+          "s"
+        ],
+        "B": [
+          "Wait for TMP Calculation",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisWdogTimerFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Wdog Tmr Fail Cond",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimer",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "MeasureRecordNWP",
+          "s"
+        ],
+        "B": [
+          "Measure/Record NWP",
+          "s"
+        ],
+        "C": [
+          18,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselLevelCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Level EM off",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselXferEMDrainVessel",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Xfer EM Drain Vsl",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFlowCtrlEMFixedSpeedLow",
+          "s"
+        ],
+        "B": [
+          "Set Skid Flow EM Fixed Spd",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitRetentateWeightPV",
+          "s"
+        ],
+        "B": [
+          "Wait for Retentate Weight PV",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitVesselDrainTime",
+          "s"
+        ],
+        "B": [
+          "Wait Vessel Drain Time",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetUFHygienicStatusDirty",
+          "s"
+        ],
+        "B": [
+          "Set UF Hyg Sts: Dirty",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IndCIPSeqHeld",
+          "s"
+        ],
+        "B": [
+          "Indicate to CIP: Seq Held",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Off",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopResetRetFlowTot",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Retentate Flow Tot",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopResetPermFlowTot",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Permeate Flow Tot",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ResetStartUFDHT",
+          "s"
+        ],
+        "B": [
+          "Reset/Start UF Skid DHT",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselXferEMPressureTest",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Xfer EM Press Test",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidRetentateEMPressureTest",
+          "s"
+        ],
+        "B": [
+          "Set Skid Ret EM Press Test",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPermeateEMPressureTest",
+          "s"
+        ],
+        "B": [
+          "Set Perm EM Press Test",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselInletEMPressureTest",
+          "s"
+        ],
+        "B": [
+          "Set Vsl Inlet EM Press Test",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitVessselPressPV",
+          "s"
+        ],
+        "B": [
+          "Wait for Vessel Pressure PV",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressureCtrlEMHold",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Hold",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetInitPress",
+          "s"
+        ],
+        "B": [
+          "Set Initial Pressure",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbPressLossFailCond",
+          "s"
+        ],
+        "B": [
+          "Enable Press Loss Fail Cond",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitPressTestHoldTime",
+          "s"
+        ],
+        "B": [
+          "Wait Pressure Test Hold Time",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetFinalPress",
+          "s"
+        ],
+        "B": [
+          "Set Final Pressure",
+          "s"
+        ],
+        "C": [
+          18,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CalcPressureDrop",
+          "s"
+        ],
+        "B": [
+          "Calculate Pressure Drop",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisPressLossFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Press Loss Fail Cond",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidRetentateEMAllRecirc",
+          "s"
+        ],
+        "B": [
+          "Set Skid Ret EM All Recirc",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPermeateEMPermRecirc",
+          "s"
+        ],
+        "B": [
+          "Set Skid Perm EM Perm Recirc",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitVesselPressPV",
+          "s"
+        ],
+        "B": [
+          "Wait for Vessel Pressure PV",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPressureCtrlEMFixedDepress",
+          "s"
+        ],
+        "B": [
+          "Set Skid Press EM Fixed Depres",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CalcFiltRemovalConcIVol",
+          "s"
+        ],
+        "B": [
+          "Calc Filt Removal Conc Vol",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CalcFiltRemovalDiaVol",
+          "s"
+        ],
+        "B": [
+          "Calc Filt Removal Dia Vol",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CalcDiaRetVslWeight",
+          "s"
+        ],
+        "B": [
+          "Calc Dia Retentate Vessel Wt",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetRetpHAlarmLimits",
+          "s"
+        ],
+        "B": [
+          "Set Ret pH Alarm Limits",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetRetCondAlmLimits",
+          "s"
+        ],
+        "B": [
+          "Set Ret Cond Alarm Limits",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselAgitCtrlEMControl",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Agitator EM Control",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselInletEMXferIn",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Inlet EM Xfer In",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WasteHdrEMXfrAqOrgWaste",
+          "s"
+        ],
+        "B": [
+          "Set Waste Hdr EM Xfer Aq Org",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "BagHolderStationPressCtrlEMOperate",
+          "s"
+        ],
+        "B": [
+          "Set Bag Holder Press EM Oper",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitCrudeUFLoadAvailable",
+          "s"
+        ],
+        "B": [
+          "Wait Crude UF Load Avail",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitHPLCPoolingBagAvailable",
+          "s"
+        ],
+        "B": [
+          "Wait HPLC Pool Bag Avail",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbUpstreamUnitUnavailFailCond",
+          "s"
+        ],
+        "B": [
+          "Enb Up Unit Unavail Fail Cond",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CrudeUFLoadVesselPressCtrlEMCtrlScrub",
+          "s"
+        ],
+        "B": [
+          "Set Load Vsl Press EM Ctrl",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "HPLCPoolingBagHolderPressEMOperate",
+          "s"
+        ],
+        "B": [
+          "Set HPLC Bag Press EM Oper",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetWdogTimerSPPressStabTime",
+          "s"
+        ],
+        "B": [
+          "Set Wdog Timer SP",
+          "s"
+        ],
+        "C": [
+          17,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitCrudeUFLoadPressPV",
+          "s"
+        ],
+        "B": [
+          "Wait Crude UF Load Press PV",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StartWdogTimerPressStabTime",
+          "s"
+        ],
+        "B": [
+          "Start Watchdog Timer",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbWdogTimerFailCondPressStabTime",
+          "s"
+        ],
+        "B": [
+          "En Wdog Stab Time Fail Cond",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisWdogTimerFailCondPressStabTime",
+          "s"
+        ],
+        "B": [
+          "Dis Wdog Stab Time Fail Cond",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimerPressStabTime",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWatchdogTmr",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisBagHolderWeightMonitoring",
+          "s"
+        ],
+        "B": [
+          "Disable Bag Weight Monitor",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "BagHolderStationPressCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Bag Holder Press EM Off",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFeedFlowCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Skid Feed Flow EM Off",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "HPLCPoolingBagHolderPressEMOff",
+          "s"
+        ],
+        "B": [
+          "Set HPLC Bag Press EM Off",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMFixedVentScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vsl Press EM Fixed Scrub",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitSkidEmptyTime",
+          "s"
+        ],
+        "B": [
+          "Wait Skid Empty Time",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisPermeateHiUVFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable Perm UV Hi Fail Cond",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitPermFlowTotPVConcII",
+          "s"
+        ],
+        "B": [
+          "Wait Permeate Flow Tot PV",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbPermeateHiUVFailCond",
+          "s"
+        ],
+        "B": [
+          "Enable Perm UV Hi Fail Cond",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitTMPOutputConcI",
+          "s"
+        ],
+        "B": [
+          "Wait for TMP Output",
+          "s"
+        ],
+        "C": [
+          19,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitTMPOutputConcII",
+          "s"
+        ],
+        "B": [
+          "Wait for TMP Output",
+          "s"
+        ],
+        "C": [
+          19,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetWdogTimerSPFlowStabTimeConcII",
+          "s"
+        ],
+        "B": [
+          "Set Wdog Timer SP",
+          "s"
+        ],
+        "C": [
+          17,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StartWdogTimerFlowStabTimeConcII",
+          "s"
+        ],
+        "B": [
+          "Start Watchdog Timer",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbWdogTmrFailCondFlowStabTimeConcII",
+          "s"
+        ],
+        "B": [
+          "En Wdog Stab Time Fail Cond",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitCrossflowCalcResultConcII",
+          "s"
+        ],
+        "B": [
+          "Wait for Crossflow Calc Result",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisWdogTmrFailCondFlowStabTimeConcII",
+          "s"
+        ],
+        "B": [
+          "Dis Wdog Stab Time Fail Cond",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimerFlowStabTimeConcII",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFlowCtrlEMCrossflowConcI",
+          "s"
+        ],
+        "B": [
+          "Set Skid Flow EM Crossflow",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFlowCtrlEMCrossflowConcII",
+          "s"
+        ],
+        "B": [
+          "Set Skid Flow EM Crossflow",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFlowCtrlEMCrossflowDia",
+          "s"
+        ],
+        "B": [
+          "Set Skid Flow EM Crossflow",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPermeateEMXferOutBag",
+          "s"
+        ],
+        "B": [
+          "Set Skid Perm EM Xfer Out Bag",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetRetCondAlmLimitsConcII",
+          "s"
+        ],
+        "B": [
+          "Set Ret Cond Alarm Limits",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetVesselWeightAlmLimitsConcII",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Weight Alm Limits",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetRetpHAlarmLimitsConcII",
+          "s"
+        ],
+        "B": [
+          "Set Ret pH Alarm Limits",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CalcFiltRemCondIIVolume",
+          "s"
+        ],
+        "B": [
+          "Calc Filt Rem Cond II Volume",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "RecordDiaVolumes",
+          "s"
+        ],
+        "B": [
+          "Record Diafiltrate Volumes",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitPermFlowTotPVDiafilt",
+          "s"
+        ],
+        "B": [
+          "Wait Permeate Flow Tot PV",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitRetCondPVDiafilt",
+          "s"
+        ],
+        "B": [
+          "Wait RetentateCond PV",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitTMPOutputDiafilt",
+          "s"
+        ],
+        "B": [
+          "Wait for TMP Output",
+          "s"
+        ],
+        "C": [
+          19,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CalcFiltRemConcIIVolume",
+          "s"
+        ],
+        "B": [
+          "Calc Filt Removal Conc II Vol",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetWdogTimerSPFlowStabTimeDia",
+          "s"
+        ],
+        "B": [
+          "Set Wdog Timer SP",
+          "s"
+        ],
+        "C": [
+          17,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StartWdogTimerFlowStabTimeDia",
+          "s"
+        ],
+        "B": [
+          "Start Watchdog Timer",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbWdogTimerFailCondFlowStabTimeDia",
+          "s"
+        ],
+        "B": [
+          "En Wdog Stab Time Fail Cond",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitCrossflowCalcResultDia",
+          "s"
+        ],
+        "B": [
+          "Wait for Crossflow Calc Result",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisWdogTimerFailCondFlowStabTimeDia",
+          "s"
+        ],
+        "B": [
+          "Dis Wdog Stab Time Fail Cond",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimerFlowStabTimeDia",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselLevelCtrlEMWFILevelCtrl",
+          "s"
+        ],
+        "B": [
+          "Set Vsl Lvl Ctrl EM WFI Lvl",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselInletEMSupplyWFI",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Inlet EM Supply WFI",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetRetpHAlmLimitsDia",
+          "s"
+        ],
+        "B": [
+          "Set Ret pH Alarm Limits",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetRetCondAlmLimitsDia",
+          "s"
+        ],
+        "B": [
+          "Set Ret Cond Alarm Limits",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ResetStartHPLCDHT",
+          "s"
+        ],
+        "B": [
+          "Reset/Start HPLC DHT",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetHPLCPoolVslHygienicStatusDirty",
+          "s"
+        ],
+        "B": [
+          "Set HPLC Pool Vsl Hyg: Dirty",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitPermFlowTotPVConcI",
+          "s"
+        ],
+        "B": [
+          "Wait Permeate Flow Tot PV",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "HPLCPoolingAgitatorCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set HPLC Pool Agit Ctrl EM Off",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ResetStartCrudeUFLoadDHT",
+          "s"
+        ],
+        "B": [
+          "Reset/Start Crude UF Load DHT",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetCrudeUFLoadHygienicStsDirty",
+          "s"
+        ],
+        "B": [
+          "Set Crude UF Load Hyg: Dirty",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CrudeUFLoadPressEMShutdownScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Crude UF Load Press EM s/d",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CrudeUFLoadAgitatorCtrlEMOff",
+          "s"
+        ],
+        "B": [
+          "Set Crude UF Load Agit EM Off",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ReleaseCrudeUFLoadHPLCEMs",
+          "s"
+        ],
+        "B": [
+          "Release Crude UF/HPLC EMs",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnableRetCondAlarms",
+          "s"
+        ],
+        "B": [
+          "Enable Ret Conductivity Alarms",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitUpstreamVesselWeightPV",
+          "s"
+        ],
+        "B": [
+          "Wait Upstream Vsl Weight PV",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitTransferLineDrainTime",
+          "s"
+        ],
+        "B": [
+          "Wait Transfer Line Drain Time",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisUpstreamUnitUnavailFailCond",
+          "s"
+        ],
+        "B": [
+          "Dis Upstrm Unavail Fail Cond",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "AcqUFLoadVesselEMs",
+          "s"
+        ],
+        "B": [
+          "Acquire Crude UF Load Vsl EMs",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "AcqHPLCEMs",
+          "s"
+        ],
+        "B": [
+          "Acquire HPLC EMs",
+          "s"
+        ],
+        "C": [
+          16,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetSolventStatusSolvPresent",
+          "s"
+        ],
+        "B": [
+          "Set Solvent Sts: Solvent Pres",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselLvlCtrlEMProdAddLvlCtrl",
+          "s"
+        ],
+        "B": [
+          "Set Vsl Lvl EM Prod Add Lvl",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselTempCtrlEMCtrl",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Temp EM Ctrl",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetWdogTimerSPInitTempCtrl",
+          "s"
+        ],
+        "B": [
+          "Set Watchdog Timer SP",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StartWdogTimerInitTempCtrl",
+          "s"
+        ],
+        "B": [
+          "Start Watchdog Timer",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbWdogTimerFailCondInitTempCtrl",
+          "s"
+        ],
+        "B": [
+          "Enable Wdog Tmr Fail Cond",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitVesselTempPV",
+          "s"
+        ],
+        "B": [
+          "Wait Vessel Temperature PV",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisWdogTimerFailCondInitTempCtrl",
+          "s"
+        ],
+        "B": [
+          "Disable Wdog Tmr Fail Cond",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimerInitTempCtrl",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbVesselHiTempFailCond",
+          "s"
+        ],
+        "B": [
+          "Enable Vsl Hi Temp Fail Cond",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitVesselWeightPV",
+          "s"
+        ],
+        "B": [
+          "Wait Vessel Weight PV",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnableUFRetVslWtAlarms",
+          "s"
+        ],
+        "B": [
+          "Enable UF Ret Vsl Weight Alms",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitPressStabTime",
+          "s"
+        ],
+        "B": [
+          "Wait Press Stabilization Time",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetWdogTimerSPFlowStabTimeConcI",
+          "s"
+        ],
+        "B": [
+          "Set Wdog Timer SP",
+          "s"
+        ],
+        "C": [
+          17,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StartWdogTimerFlowStabTimeConcI",
+          "s"
+        ],
+        "B": [
+          "Start Watchdog Timer",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbWdogTimerFailCondFlowStabTimeConcI",
+          "s"
+        ],
+        "B": [
+          "En Wdog Stab Time Fail Cond",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitCrossflowCalcResultConcI",
+          "s"
+        ],
+        "B": [
+          "Wait for Crossflow Calc Result",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisWdogTimerFailCondFlowStabTimeConcI",
+          "s"
+        ],
+        "B": [
+          "Dis Wdog Stab Time Fail Cond",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopResetWdogTimerFlowStabTimeConcI",
+          "s"
+        ],
+        "B": [
+          "Stop/Reset Wdog Timer",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitInitRecircTime",
+          "s"
+        ],
+        "B": [
+          "Wait Initial Recirc Time",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbBagHolderWeightMonitorContLogic",
+          "s"
+        ],
+        "B": [
+          "Enb Bag Holder Wt Mon Logic",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnableRetpHAlarms",
+          "s"
+        ],
+        "B": [
+          "Enable Retentate pH Alarms",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlOverlayScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Scrub",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlOverlayProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Proc",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncDownstreamReadytoStartProdXfer",
+          "s"
+        ],
+        "B": [
+          "Sync D/S: Rdy Start Prod Xfer",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselXferEMXferOutHPLCBag",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Xfr EM Xfr HPLC/Bag",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisableUFRetVslWtAlarms",
+          "s"
+        ],
+        "B": [
+          "Dis UF Ret Vessel Weight Alms",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlTransferScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Scrub",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlTransferProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Proc",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMShutdownScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Shutdown",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitCrudeUFLoadVesselPressPV",
+          "s"
+        ],
+        "B": [
+          "Wait Crude UF Load Press PV",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitUFRetVesselWtPV",
+          "s"
+        ],
+        "B": [
+          "Wait UF Ret Vsl Weight PV",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IndUFSkidHolding",
+          "s"
+        ],
+        "B": [
+          "Sync: Ind UF Skid Holding ",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IndUFSkidAborting",
+          "s"
+        ],
+        "B": [
+          "Sync: Ind UF Skid Aborting ",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselXferEMProdRecovery",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Xfer EM Prod Rec",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitProductRecoveryTime",
+          "s"
+        ],
+        "B": [
+          "Wait Product Recovery Time",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlRecoveryScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Scrub",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlRecoveryProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Proc",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitBagHolderAvail",
+          "s"
+        ],
+        "B": [
+          "Wait Bag Holder Availability",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitPumpPrimeTime",
+          "s"
+        ],
+        "B": [
+          "Wait Pump Prime Time",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitProductRecoverRecircTime",
+          "s"
+        ],
+        "B": [
+          "Wait Prod RecoveryRecirc Time",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StoreHygienicStatusUF",
+          "s"
+        ],
+        "B": [
+          "Store UF Hygienic Status",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetUFHygienicStatusCleanInProgress",
+          "s"
+        ],
+        "B": [
+          "Set UF Hygienic Status CIP",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselInletEMCIP",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Inlet EM CIP",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselOutletEMCIP",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Outlet EM CIP",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselXferEMCIP",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Xfer EM CIP",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselAgitCtrlEMCIP",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Agit EM CIP",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFeedEMCIP",
+          "s"
+        ],
+        "B": [
+          "Set Skid Feed EM CIP",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidFlowCtrlEMCIP",
+          "s"
+        ],
+        "B": [
+          "Set Skid Flow EM CIP",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidRetentateEMCIP",
+          "s"
+        ],
+        "B": [
+          "Set Skid Retentate EM CIP",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPermeateEMCIP",
+          "s"
+        ],
+        "B": [
+          "Set Skid Permeate EM CIP",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SkidPressCtrlEMCIP",
+          "s"
+        ],
+        "B": [
+          "Set Skid Press EM CIP",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ResetCycleCount",
+          "s"
+        ],
+        "B": [
+          "Reset Cycle Count",
+          "s"
+        ],
+        "C": [
+          17,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPCycleStepDirection",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: Cycle Step Direction",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlCIPScrubber",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Scrub",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselPressCtrlEMCtrlCIPProcess",
+          "s"
+        ],
+        "B": [
+          "Set Vessel Press EM Ctrl Proc",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WasteHdrEMXferOutAq",
+          "s"
+        ],
+        "B": [
+          "Set Waste Hdr EM Xfer Out Aq",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetCIPDevicesStartSequence",
+          "s"
+        ],
+        "B": [
+          "Set CIP Devices to Start Seq",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPStartofCIPCycle",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: Start of CIP Cycle",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPStartofFlowPathToggle",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: Start Flow Path Tog",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ToggleOnceCleaningPathsCleanSequence",
+          "s"
+        ],
+        "B": [
+          "Toggle Once Clean Seq",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IncrementCycleCount",
+          "s"
+        ],
+        "B": [
+          "Increment Cycle Count",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IndCIPSkidStartMonRetTOC",
+          "s"
+        ],
+        "B": [
+          "Ind CIP: Start Mon Return TOC",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPEndOfCIPCycle",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: End of CIP Cycle",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "PauseCleaningPathsToggle",
+          "s"
+        ],
+        "B": [
+          "Pause Clean Paths Toggle",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IndCIPSkidFlowPathTogglingPaused",
+          "s"
+        ],
+        "B": [
+          "Ind CIP: Flow Path Tog Paused",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitCIPSkidResumeFlowPathToggle",
+          "s"
+        ],
+        "B": [
+          "Wait CIP Skid Resume Toggle",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WasteHdrEMXferOutAqOrg",
+          "s"
+        ],
+        "B": [
+          "Waste Hdr EM Xfer Out Aq Org",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPStartofDrain",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: Start of Drain",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ToggleOnceDrainPathsAqOrgWasteSeq",
+          "s"
+        ],
+        "B": [
+          "Toggle Once Aq Org Drain Seq",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPEndofDrain",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: End of Drain",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ToggleOnceDrainPathsAqWasteSequence",
+          "s"
+        ],
+        "B": [
+          "Toggle Once Aq Drain Seq",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPStartofAirBlow",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: Start of Air Blow",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPEndofAirBlow",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: End of Air Blow",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IndCIPSkidStartMonRetCond",
+          "s"
+        ],
+        "B": [
+          "Ind CIP: Start Mon Return Cond",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "RecordCIPRTOCPV",
+          "s"
+        ],
+        "B": [
+          "Record CIPR TOC PV",
+          "s"
+        ],
+        "C": [
+          18,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbHighTOCFailCond",
+          "s"
+        ],
+        "B": [
+          "Enable High TOC Fail Cond",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetCIPDevicesDefaultSequence",
+          "s"
+        ],
+        "B": [
+          "Set CIP Devices to Defaul Seq",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisHighTOCFailCond",
+          "s"
+        ],
+        "B": [
+          "Disable High TOC Fail Cond",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetUFHygienicStatusClean",
+          "s"
+        ],
+        "B": [
+          "Set UF Hygienic Status Clean",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ResetStartUFCHT",
+          "s"
+        ],
+        "B": [
+          "Reset/Start UF Skid CHT",
+          "s"
+        ],
+        "C": [
+          23,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ResetStopUFDHT",
+          "s"
+        ],
+        "B": [
+          "Reset/Stop UF Skid DHT",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IndCIPSkidPlacedInHold",
+          "s"
+        ],
+        "B": [
+          "Ind CIP: CIP Seq in Hold",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IndCIPSkidAborted",
+          "s"
+        ],
+        "B": [
+          "Ind CIP: CIP Seq Aborted",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetUFHygienicStatusDirtyExpired",
+          "s"
+        ],
+        "B": [
+          "Set UF Hyg Status Dirty Exp",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetUFHygienicStatusInitialHygStatus",
+          "s"
+        ],
+        "B": [
+          "Set UF Hyg Sts: Init Hyg Sts",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetDevicesDefaultSeq",
+          "s"
+        ],
+        "B": [
+          "Set Devices to Default Seq",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IndCIPSeqAborted",
+          "s"
+        ],
+        "B": [
+          "Indicate CIP: CIP Seq Aborted",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetUFStorageStatusNotStored",
+          "s"
+        ],
+        "B": [
+          "Set UF Storage Sts: Not Stored",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "IndCIPSeqHold",
+          "s"
+        ],
+        "B": [
+          "Indicate CIP: CIP Seq Hold",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPReadytoStartAirBlow",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: Ready Start Air Blow",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetDevicesStartSeq",
+          "s"
+        ],
+        "B": [
+          "Set Devices to Start Seq",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPReadyToStartFlush",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: Ready Start Flush",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPStartofFlush",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: Start of Flush",
+          "s"
+        ],
+        "C": [
+          24,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPEndofFlush",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: End of Flush",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbLowFeedFlowFailCond",
+          "s"
+        ],
+        "B": [
+          "Enb Low Feed Flow Fail Cond",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisLowFeedFlowFailCond",
+          "s"
+        ],
+        "B": [
+          "Dis Low Feed Flow Fail Cond",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetSolventStatusSolvNotPresent",
+          "s"
+        ],
+        "B": [
+          "Set Solvent Sts: Solv Not Pres",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCIPStartofOperation",
+          "s"
+        ],
+        "B": [
+          "Sync CIP: Start of Operation",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnbSyncUnitHeldAbortedFailCond",
+          "s"
+        ],
+        "B": [
+          "Enbe Sync Held/Abort Fail Cond",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "AcqCrudeUFLoadPressCtrlEM",
+          "s"
+        ],
+        "B": [
+          "Acq CrudeUF Load Press Ctrl EM",
+          "s"
+        ],
+        "C": [
+          30,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "AcqHPLCPoolingBHPressEM",
+          "s"
+        ],
+        "B": [
+          "Acq HPLC Pool BH Press EM",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "AcqHPLCPoolingVesselPressCtrlEM",
+          "s"
+        ],
+        "B": [
+          "Acq HPLC Pool Vsl Press EM",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "HPLCPoolingVesselPressCtrlEMCtrl",
+          "s"
+        ],
+        "B": [
+          "Set HPLC Pool Press EM Ctrl",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "HPLCPoolPressCtrlEMShutdownProcess",
+          "s"
+        ],
+        "B": [
+          "Set HPLC Pool Press EM Shutdn",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CrudeUFLoadVslInletEMCIP",
+          "s"
+        ],
+        "B": [
+          "Set CrudeUF Load Inlet EM CIP",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CrudeUFLoadVslXferEMCIP",
+          "s"
+        ],
+        "B": [
+          "Set CrudeUF Load Xfer EM CIP",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "HPLCPoolingVslInletEMXferLineCIP",
+          "s"
+        ],
+        "B": [
+          "Set HPLC Pool In EM Xfer CIP",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "HPLCPoolingVslOutletEMXferLineCIP",
+          "s"
+        ],
+        "B": [
+          "Set HPLC Pool Out EM Xfer CIP",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetCrudeUFLoadVslStsUnavailable",
+          "s"
+        ],
+        "B": [
+          "Set CrudeUF Load Sts Unavail",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "CheckVesselLowLevel",
+          "s"
+        ],
+        "B": [
+          "Check Vessel Low Level",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "TareVesselWeight",
+          "s"
+        ],
+        "B": [
+          "Tare Vessel Weight",
+          "s"
+        ],
+        "C": [
+          18,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetInitialPressToPV",
+          "s"
+        ],
+        "B": [
+          "Set Init Press to PV",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "ResetStartDirtyHoldTimer",
+          "s"
+        ],
+        "B": [
+          "Reset Start Dirty Hold",
+          "s"
+        ],
+        "C": [
+          22,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "WaitPurgeHoldTime",
+          "s"
+        ],
+        "B": [
+          "Wait Purge Hold Time",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStartXfer",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Start Xfer",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "EnableSyncHeldAbortFailCon",
+          "s"
+        ],
+        "B": [
+          "Enable Sync Hold Abort Fail",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStopXfer",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Stop Xfer",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "DisableSyncHeldAbortFailCon",
+          "s"
+        ],
+        "B": [
+          "Disable Sync Hold Abort Fail",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStartFlush",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Start Flush",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStopFlush",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Stop Flush",
+          "s"
+        ],
+        "C": [
+          27,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStartN2Blow",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Start N2Blow",
+          "s"
+        ],
+        "C": [
+          29,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SyncCDReadyToStopN2Blow",
+          "s"
+        ],
+        "B": [
+          "Sync CD Ready to Stop N2Blow",
+          "s"
+        ],
+        "C": [
+          28,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "SetStorageRequired",
+          "s"
+        ],
+        "B": [
+          "Set Storage Required",
+          "s"
+        ],
+        "C": [
+          20,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "VesselAgitatorCtrlEMOperate",
+          "s"
+        ],
+        "B": [
+          "Vsl Agitator Ctrl Operate",
+          "s"
+        ],
+        "C": [
+          25,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StartColdHoldTmr",
+          "s"
+        ],
+        "B": [
+          "Start Cold Hold Timer",
+          "s"
+        ],
+        "C": [
+          21,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "StopResetColdHoldTmr",
+          "s"
+        ],
+        "B": [
+          "Stop Reset Cold Hold Timer",
+          "s"
+        ],
+        "C": [
+          26,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "RecordColdHold",
+          "s"
+        ],
+        "B": [
+          "Record Cold Hold",
+          "s"
+        ],
+        "C": [
+          16,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      },
+      {
+        "A": [
+          "",
+          null
+        ],
+        "B": [
+          "",
+          null
+        ],
+        "C": [
+          0,
+          "n"
+        ]
+      }
+    ]
+  }
+}
