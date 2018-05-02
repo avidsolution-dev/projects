@@ -1,7 +1,0 @@
-#  info "downloading orderer msps tlsca cert file using $f"
-#  c="wget ${WGET_OPTS} --directory-prefix crypto-config/ordererOrganizations/$DOMAIN/orderers/orderer.$DOMAIN/msp/tlscacerts http://www.$DOMAIN:$DEFAULT_WWW_PORT/crypto-config/ordererOrganizations/$DOMAIN/orderers/orderer.$DOMAIN/msp/tlscacerts/tlsca.$DOMAIN-cert.pem"
-#  echo ${c}
-#  docker-compose --file ${f} run --rm "cli.$org.$DOMAIN" bash -c "${c} && chown -R $UID:$GID ."
-
-
-      - ../artifacts/crypto-config/ordererOrganizations/DOMAIN/orderers/orderer.DOMAIN/msp/tlscacerts:/etc/hyperledger/crypto/orderer/msp/tlscacerts
