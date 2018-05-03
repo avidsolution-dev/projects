@@ -1,0 +1,29 @@
+
+### Size of tables ###
+
+SELECT nspname || '.' || relname AS "relation",
+    pg_size_pretty(pg_relation_size(C.oid)) AS "size"
+  FROM pg_class C
+  LEFT JOIN pg_namespace N ON (N.oid = C.relnamespace)
+  WHERE nspname NOT IN ('pg_catalog', 'information_schema')
+  ORDER BY pg_relation_size(C.oid) desc
+
+
+### Size of fields ###
+
+select sum(pg_column_size("flow")) from "Flows"
+2 602 714
+select sum(pg_column_size("parsedExcelData")) from "Books"
+6 329 311
+select sum(pg_column_size("parsedExcelData")) from "DatasetVersions"
+0
+select sum(pg_column_size("parsedSheetsColumns")) from "DatasetVersions"
+
+
+
+### Length of fields ###
+
+select sum(length("flow"::TEXT)) from "Flows"
+select sum(length("parsedExcelData"::TEXT)) from "Books"
+select sum(length("parsedExcelData"::TEXT)) from "DatasetVersions"
+select sum(length("parsedSheetsColumns"::TEXT)) from "DatasetVersions"
