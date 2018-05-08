@@ -1,0 +1,153 @@
+      <div id="treelist" class="treelist treelist--actions"></div>
+
+                  <script id="name-template" type="text/x-kendo-template">
+                    <a class='project-name' onclick="onTreeNodeClick('#:id#')">#: name#</a>
+                  </script>
+
+                  <script id="actions-template" type="text/x-kendo-template">
+
+                    <div class='actions-btn'>
+                      <svg aria-hidden='true' class='icon_actions-expand-btn'>
+                        <use xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='\\#icon_actions-expand-btn'></use>
+                      </svg>
+                    </div>
+                  </script>
+
+
+
+
+
+
+//    "start": "kappa -c kappa-config.json"
+
+ curl --data-urlencode "" -H "Cookie: token=+2QoC0jimxElU6+AxsJxKw==" -H "Upgrade-Insecure-Requests:1" -X DELETE http://localhost:4873/-/logout
+
+     "pre": "- echo -e \"test\ntest\nt@t.t\" | npm login ",
+
+"pre": "- echo -e \"test\nadmin\nt@t.t\" | npm login ",
+
+
+    "start": "node ./node_modules/sinopia/bin/sinopia -c ./config.yaml -l $PORT ",
+
+
+console.log(hostData.url+ "/nodes");
+                        request({
+                            url: hostData.url + "/nodes", method: "POST",
+                            headers:{"Content-Type": "application/json; charset=UTF-8"},
+                            json: {
+                                module: "@scope2/testnode2"
+                            }, function(err, resp, body){
+                                console.log("NODES ANSWER" + (err || resp || body));
+                            }
+                        });
+
+
+,
+  "optionalDependencies": {
+    "@scope2/testnode2": "0.0.1"
+  }
+
+
+
+         var exec = require('child_process').exec;
+          //var child = exec("echo - "npm install @scope2/testnode2", function (error, stdout, stderr) {});
+
+          console.log("npm install @scope2/testnode2");
+          var npmLogin = require('npm-cli-login');
+          npmLogin("test", "admin", "t@t.t", "http://npmreg.cf-demo.altoros.com/");
+
+          exec("npm install compactcom-40-nodes", function (error, stdout, stderr) {});
+          console.log("compactcom-40-nodes");
+          exec("npm install json-db-node-red", function (error, stdout, stderr) {});
+          console.log("json-db-node-red");
+          exec("npm install co2monitor", function (error, stdout, stderr) {});
+          console.log("co2monitor");
+          exec("npm install node-red-aquila", function (error, stdout, stderr) {});
+          console.log(" node-red-aquila");
+          exec("npm install node-red-ca_enginenode", function (error, stdout, stderr) {});
+          console.log("node-red-ca_enginenode");
+          exec("npm install node-red-configurable-ping", function (error, stdout, stderr) {});
+          console.log("node-red-configurable-ping");
+          exec("npm install node-red-contrib-1wire", function (error, stdout, stderr) {});
+          console.log("node-red-contrib-1wire");
+          exec("npm install node-red-contrib-acc9xx", function (error, stdout, stderr) {});
+          console.log("node-red-contrib-acc9xx");
+          exec("npm install node-red-contrib-admin", function (error, stdout, stderr) {});
+          console.log("node-red-contrib-admin");
+          exec("npm install node-red-contrib-ads-b", function (error, stdout, stderr) {});
+          console.log("node-red-contrib-ads-b");
+          exec("npm install node-red-contrib-advance-logger", function (error, stdout, stderr) {});
+          console.log("node-red-contrib-advance-logger");
+          exec("npm install node-red-contrib-advanced-ping", function (error, stdout, stderr) {});
+          console.log("node-red-contrib-advanced-ping");
+          exec("npm install node-red-contrib-aerospike", function (error, stdout, stderr) {});
+          console.log("json");
+          exec("npm install node-red-contrib-aggregator", function (error, stdout, stderr) {});
+          console.log("json");
+          exec("npm install node-red-contrib-alasql", function (error, stdout, stderr) {});
+          console.log("json");
+          exec("npm install node-red-contrib-alexa", function (error, stdout, stderr) {});
+          console.log("json");
+          exec("npm install node-red-contrib-alexa-verifier", function (error, stdout, stderr) {
+              var child = exec("npm install @scope2/testnode2", function (error, stdout, stderr) {
+              });
+              sys.print('stdout: ' + stdout);
+              sys.print('stderr: ' + stderr);
+              if (error !== null) {
+                  console.log('exec error: ' + error);
+              }
+
+
+
+    cf : {
+      endpoint : 'https://api.ng.bluemix.net',
+      username : 'leonid.leshchenya@altoros.com',
+      password : 'env1Q02W03',
+      org   : 'NPMREG',
+      space : 'space' || appEnv.space_name // TODO
+  },
+
+
+
+      /*
+   app.get("/test/:token", function(req, res) {
+   var auth_token = req.params.token;
+   console.log("auth_token");
+   console.log(auth_token);
+   res.send("<html></html><body><form id=login' name='login' method='POST' action='/auth/token'>"+
+   "client_id: <input name='client_id' value='node-red-editor'>" +
+   "grant_type: <input name='grant_type' value='password'>" +
+   "scope: <input name='scope' value='*'>" +
+   "username: <input name='username' value='Admin'>" +
+   "username: <input name='password' value='text'>" +
+   "<input type='submit'></form></body>" +
+   "<script> setTimeout(" +
+   "function(){\n" +
+   "console.log('document');\n" +
+   "console.log(document.login);\n" +
+   "window.localStorage.auth_tokens="+JSON.stringify(auth_token)+";" +
+   "window.location='/';" +
+   "}, 2000)\n" +
+   "</script></html>");
+   });
+   */
+
+       "node-red": "^0.15.1",
+       "node-red-contrib-ui": "^1.2.19",
+
+
+//    "node-red-contrib-ui": "git+https://github.com/push1st1k/node-red-contrib-ui.git",
+
+
+
+var edge = require('edge');
+var helloWorld = edge.func(function () {/*
+ async (input) => {
+ return ".NET Welcomes " + input.ToString();
+ }
+ */});
+
+helloWorld('JavaScript', function (error, result) {
+    if (error) throw error;
+    console.log(result);
+});
