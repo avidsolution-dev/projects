@@ -1,0 +1,69 @@
+[
+  {
+    "id": "bd7380ed.1828d",
+    "type": "tab",
+    "label": "Flow 1"
+  },
+  {
+    "id": "9277ae21.54417",
+    "type": "inject",
+    "z": "bd7380ed.1828d",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 230.5,
+    "y": 2125.2999877929688,
+    "wires": [
+      [
+        "ecb302d0.577c3"
+      ]
+    ]
+  },
+  {
+    "id": "ecb302d0.577c3",
+    "type": "function",
+    "z": "bd7380ed.1828d",
+    "name": "",
+    "func": "// Create a Date object from the payload\nvar date = new Date(msg.payload);\n// Change the payload to be a formatted Date string\nmsg.payload = date.toString();\nmsg.filename = \"test_upload2.txt\";\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 454.5,
+    "y": 2132.5999755859375,
+    "wires": [
+      [
+        "8a146145.020bd"
+      ]
+    ]
+  },
+  {
+    "id": "8a146145.020bd",
+    "type": "upload_file",
+    "z": "bd7380ed.1828d",
+    "filename": "",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 648.5,
+    "y": 2136.1499938964844,
+    "wires": [
+      [
+        "10fbec69.61f5c4"
+      ]
+    ]
+  },
+  {
+    "id": "10fbec69.61f5c4",
+    "type": "debug",
+    "z": "bd7380ed.1828d",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "true",
+    "x": 806.5,
+    "y": 2133.449951171875,
+    "wires": []
+  }
+]
