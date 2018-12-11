@@ -1,8 +1,75 @@
 [
   {
+    "id": "b2ef3925.b68ee8",
+    "type": "tab",
+    "label": "Flow 1"
+  },
+  {
     "id": "bd7380ed.1828d",
     "type": "tab",
     "label": "Flow 1"
+  },
+  {
+    "id": "f91ee924.1d9ac8",
+    "type": "inject",
+    "z": "b2ef3925.b68ee8",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "x": 334.5,
+    "y": 451.29998779296875,
+    "wires": [
+      [
+        "288c6316.c005cc"
+      ]
+    ]
+  },
+  {
+    "id": "288c6316.c005cc",
+    "type": "function",
+    "z": "b2ef3925.b68ee8",
+    "name": "format date",
+    "func": "msg.filename = \"test_upload\"+msg.i+\".txt\";\n// Create a Date object from the payload\nvar date = new Date(msg.payload);\n// Change the payload to be a formatted Date string\nmsg.payload = \"date \"+ msg.i + \": \" +date.toString();\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 567.5,
+    "y": 448.5999755859375,
+    "wires": [
+      [
+        "a1f2dfb7.30231"
+      ]
+    ]
+  },
+  {
+    "id": "a1f2dfb7.30231",
+    "type": "upload_file",
+    "z": "b2ef3925.b68ee8",
+    "filename": "",
+    "name": "",
+    "overwriteFile": "true",
+    "x": 792.5,
+    "y": 445.1499938964844,
+    "wires": [
+      [
+        "f694a461.17dc78"
+      ]
+    ]
+  },
+  {
+    "id": "f694a461.17dc78",
+    "type": "debug",
+    "z": "b2ef3925.b68ee8",
+    "name": "",
+    "active": true,
+    "console": "false",
+    "complete": "false",
+    "x": 1031.5,
+    "y": 443.4499816894531,
+    "wires": []
   },
   {
     "id": "9277ae21.54417",
