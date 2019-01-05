@@ -33,7 +33,7 @@
     "type": "function",
     "z": "b2ef3925.b68ee8",
     "name": "format date",
-    "func": "msg.filename = \"test_upload\"+msg.i+\".txt\";\n// Create a Date object from the payload\nvar date = new Date(msg.payload);\n// Change the payload to be a formatted Date string\nmsg.payload = \"date \"+ msg.i + \": \" +date.toString();\nreturn msg;",
+    "func": "let i =26;\nmsg.filename = \"test_upload\"+i+\".txt\";\n// Create a Date object from the payload\nvar date = new Date(msg.payload);\n// Change the payload to be a formatted Date string\nmsg.payload = \"date \"+ i + \": \" +date.toString();\nreturn msg;",
     "outputs": 1,
     "noerr": 0,
     "x": 567.5,
